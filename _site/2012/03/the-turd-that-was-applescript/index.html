@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>The Turd that WAS AppleScript</title>
+    <meta name="description" content="Last week I posted about my initial experience with AppleScript and how much of a turd I found it. Well, it’s been a week now and I have learned heaps!!!I ha...">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://smithplatts.github.io/2012/03/the-turd-that-was-applescript/">
+    <link rel="alternate" type="application/rss+xml" title="Adam Smith-Platts" href="http://smithplatts.github.io/feed.xml" />
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+
+    <body>
+
+        <header id="site-header" class="site-header">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Adam Smith-Platts</a>
+        <div class="site-tag">var post = new SmithPlatts.Post<TTitle, TBody>("blah", "blah blah …");</div>
+
+        <nav class="site-nav">
+            <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+            </a>
+
+            <div class="trigger">
+            
+                
+                <li>
+                <a class="page-link" href="/colophon/">Colophon</a>
+                
+                </li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/cli-tools/">CLi Tools</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/cli-tools/enuminstalledapp/">| EnumInstalledApp</a></li><li><a class="page-link" href="/cli-tools/promotenta/">| PromoteNTA</a><ul class="submenu"><li><a class="page-link" href="/cli-tools/promotenta/devresource/">| Developer Resource</a></li></ul></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/coffeebuzz/">Coffee Buzz</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/coffeebuzz/changelog/">| Change Log</a></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+            
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+
+        <div id="page-content" class="page-content">
+            <div class="wrapper">
+                <div class="post">
+
+    <header class="post-header">
+        
+        <h1 class="post-title">The Turd that WAS AppleScript</h1>
+        
+        <p class="post-meta">Mar 19, 2012 • Adam Smith-Platts</p>
+    </header>
+
+    <article class="post-content">
+        
+        <div class="migrated">This post was originaly published to <a href="https://stuffthebox.wordpress.com/2012/03/19/the-turd-that-was-applescript/" target="_blank">Stuff the Box</a> on 19 Mar 2012</div>
+        
+        <p>Last week <a href="/2012/03/the-turd-that-is-applescript/">I posted about my initial experience</a> with AppleScript and how much of a turd I found it. <br /><br />
+Well, it’s been a week now and I have learned heaps!!!<br />
+I have also completely changed my opinion about the language …</p>
+
+<p>My biggest problem was that I was trying to do things that aren’t common for AppleScripts target use, and my terminology was wrong. So, in this post, I want to correct a few statements that were made and offer some [hopefully] valuable User Defined Handlers (<abbr title="User Defined Handler">UDH</abbr>) for others to use.</p>
+
+<p>In my previous post, I was trying to check to see if an application was installed, and do something based on that. This was proving difficult as I could’t find any kind of documentation on the InterWebs (Google sucks, have you noticed?!) and was getting frustrated.<br /></p>
+
+<p>Well, I now have a UDM that does exactly that, and does it well:</p>
+
+<div class="highlight"><pre><code class="language-applescript" data-lang="applescript"><span class="c"># Check to see if an application exists</span>
+<span class="k">on</span> <span class="nv">fnAppExist</span><span class="p">(</span><span class="nv">appName</span><span class="p">)</span>
+    <span class="k">try</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">do shell script</span> <span class="s2">&quot;ls /Applications | grep &quot;</span> <span class="o">&amp;</span> <span class="nv">appName</span><span class="p">)</span> <span class="ow">contains</span> <span class="nv">appName</span> <span class="k">then</span>
+            <span class="k">set</span> <span class="nv">appExist</span> <span class="k">to</span> <span class="mi">1</span> <span class="k">as</span> <span class="nv">boolean</span>
+        <span class="k">end</span> <span class="k">if</span>
+    <span class="nb">on</span> <span class="k">error</span>
+        <span class="k">set</span> <span class="nv">appExist</span> <span class="k">to</span> <span class="mi">0</span> <span class="k">as</span> <span class="nv">boolean</span>
+    <span class="k">end</span> <span class="k">try</span>
+<span class="k">end</span> <span class="nv">fnAppExist</span></code></pre></div>
+
+<p>This is a Handler, and was my biggest problem last week. I kept thinking in the terminology of other scripting/coding languages which I have used and developed with. I kept wanting to create <em>functions</em>. In AppleScript, functions are better known as <em>handlers</em>.</p>
+
+<p>The handler above sets a <code>try</code> environment. This is vital to the success of the commands following it and I will explain that as I get to it. Next it checks to see if an application exists by running the terminal command <code>ls</code> on the <code>/Applications</code> directory and looking for any results that contain the text contained in the variable <code>appName</code>. If that returns <code>true</code>, the handler sets the variable <code>appExist</code> to the <em>boolean</em> value of 1. A <em>boolean</em> value of 1 is often also synonymous to <code>true</code>.</p>
+
+<p>If the <code>ls</code> command does not return <code>appName</code>, under normal circumstances the whole script would error out and stop. This is where the <code>try</code> command is so vital. If the logic errors at all, it can be caught with the <code>on error</code> block. If the command errors out, the <code>on error</code> will kick in and set <code>appExist</code> to the <em>boolean</em> value of 0. A <em>boolean</em> value of 0 is often also synonymous to <code>false</code>.</p>
+
+<p>When a handler ends, it returns the value/output of the last command performed.</p>
+
+<p>Once I worked this out, that <em>functions</em> are known as <em>handlers</em>, I was able to create more. <br />
+The following is a VERY similar handler to the above:</p>
+
+<div class="highlight"><pre><code class="language-applescript" data-lang="applescript"><span class="c"># Check to see if a folder exists</span>
+<span class="k">on</span> <span class="nv">fnFldrExist</span><span class="p">(</span><span class="nv">fldrParentPath</span><span class="p">,</span> <span class="nv">fldrName</span><span class="p">)</span>
+    <span class="k">try</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">do shell script</span> <span class="s2">&quot;ls &quot;</span> <span class="o">&amp;</span> <span class="nv">fldrParentPath</span> <span class="o">&amp;</span> <span class="s2">&quot; | grep &quot;</span> <span class="o">&amp;</span> <span class="nv">fldrName</span><span class="p">)</span> <span class="ow">is equal</span> <span class="k">to</span> <span class="nv">fldrName</span> <span class="k">then</span>
+            <span class="k">set</span> <span class="nv">fldrExist</span> <span class="k">to</span> <span class="mi">1</span> <span class="k">as</span> <span class="nv">boolean</span>
+        <span class="k">end</span> <span class="k">if</span>
+    <span class="nb">on</span> <span class="k">error</span>
+        <span class="k">set</span> <span class="nv">fldrExist</span> <span class="k">to</span> <span class="mi">0</span> <span class="k">as</span> <span class="nv">boolean</span>
+    <span class="k">end</span> <span class="k">try</span>
+<span class="k">end</span> <span class="nv">fnFldrExist</span></code></pre></div>
+
+<p>This handler checks if a folder (<code>fldrName</code>) exists in the directory path specified by <code>fldrParentPath</code> and does pretty much everything as mentioned above by the <code>Application Exists</code> handler. What was awesome about this UDM was the advancement from using one variable in the UDM to 2 variables. Simple, pathetic, but damn it felt good haha</p>
+
+<p>You can also do things like generic copy commands, create directory trees or run installers.<br />
+<em>Handlers</em>, like their cousins (<em>functions</em>), are very powerful and useful.</p>
+
+<p>In my post last week, I stated that I gave up what I was trying to do and created shell scripts to do the main commands required and used AppleScript to just call them with some nice dialogs (message boxes). Well that has been thrown out, and I have created two AppleScripts. One does all the commands I need and installs everything I need for BBEdit, and the other script does the same for TextWrangler. The reason for the separation will be explained in an upcoming post.</p>
+
+<p>I have 5 supporting handlers (UDHs) for these scripts which are generic enough to do multiple tasks within each script. All in all, a great result!</p>
+
+<p>If you would like to know about anymore of the UDMs that I have used or if you would like to know if a task you have can be turned into a UDM, please email or comment :D</p>
+
+<p>AppleScript is a very powerful and capable language. I was irritated in my post last week cause I couldn’t find any of the info I needed to perform these tasks. When I changed my wording in the Google/Bing search boxes, I finally got results. These results have enabled me to power ahead and create 2 very awesome “installers” for my BBEdit/TextWrangler CLM and colour scheme.</p>
+
+
+    </article>
+
+</div>
+
+            </div>
+        </div>
+
+        <div id="hover-footer" class="site-footer"></div>
+
+<footer class="site-footer">
+
+    <div id="footer-wrapper" class="wrapper">
+        <div class="footer-col-wrapper">
+
+            <div class="footer-col footer-col-1">
+                <h1 class="footer-heading">PROFESSIONAL AND DEVELOPMENT</h1>
+                <div style="text-align:center;">
+                    <a href="http://stackoverflow.com/users/2412624/smithplatts">
+                        <img src="http://stackoverflow.com/users/flair/2412624.png?theme=clean" width="215" height="60" alt="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                    </a>
+                    <p style="padding-top: 15px;">
+                        For my online CV of sorts, you can view my SO Careers profile <a href="http://careers.stackoverflow.com/smithplatts">here</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <h1 class="footer-heading">SOCIAL MEDIA STUFFS</h1>
+                <div style="float:left; width:2%;">&nbsp;</div>
+                <div style="float:left; width:24%;">
+                    <a href="/feed.xml">
+                        <img src="/assets/images/social/rss.png" title="ASP in your Feed" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://twitter.com/SmithPlatts">
+                        <img src="/assets/images/social/twitter.png" title="ASP on Twitter" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://500px.com/SmithPlatts">
+                        <img src="/assets/images/social/500px.png" title="ASP on 500px" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://www.flickr.com/photos/isplatts">
+                        <img src="/assets/images/social/flickr.png" title="ASP on Flickr" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:2%;">&nbsp;</div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+    </body>
+
+</html>

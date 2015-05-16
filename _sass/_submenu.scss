@@ -1,0 +1,60 @@
+nav.site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.site-nav a {
+    color: white;
+    display: block;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+nav.site-nav a:hover {
+    color: $grey-color;
+}
+
+/* Sub Menus */
+nav.site-nav li li {
+    font-size: .85em;
+}
+
+/*******************************************
+   Style menu for larger screens
+
+   Using 650px (130px each * 5 items), but ems
+   or other values could be used depending on other factors
+********************************************/
+
+@media screen and (min-width: 650px) {
+    nav.site-nav li {
+        border-bottom: none;
+        display: inline-block;
+        line-height: 50px;
+        margin-right: -4px;
+    }
+
+    nav.site-nav > ul > li {
+        text-align: center;
+    }
+
+    nav.site-nav > ul > li > a {
+        padding-left: 0;
+    }
+
+    /* Sub Menus */
+    nav.site-nav li ul.submenu {
+        display: none;
+        position: absolute;
+        width: inherit;
+    }
+
+    nav.site-nav li:hover > ul.submenu {
+        display: block;
+    }
+
+    nav.site-nav li ul li {
+        display: block;
+    }
+}

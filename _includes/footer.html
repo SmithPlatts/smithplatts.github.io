@@ -1,0 +1,49 @@
+<div id="hover-footer" class="site-footer"></div>
+
+<footer class="site-footer">
+
+    <div id="footer-wrapper" class="wrapper">
+        <div class="footer-col-wrapper">
+
+            <div class="footer-col footer-col-1">
+                <h1 class="footer-heading">PROFESSIONAL AND DEVELOPMENT</h1>
+                <div style="text-align:center;">
+                    <a href="http://stackoverflow.com/users/{{ site.so_userid }}/{{ site.so_username }}">
+                        <img src="http://stackoverflow.com/users/flair/{{ site.so_userid }}.png?theme=clean" width="215" height="60" alt="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                    </a>
+                    <p style="padding-top: 15px;">
+                        For my online CV of sorts, you can view my SO Careers profile <a href="http://careers.stackoverflow.com/{{ site.so_username }}">here</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <h1 class="footer-heading">SOCIAL MEDIA STUFFS</h1>
+                <div style="float:left; width:2%;">&nbsp;</div>
+                <div style="float:left; width:24%;">
+                    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                        <img src="/assets/images/social/rss.png" title="ASP in your Feed" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://twitter.com/{{ site.twitter_username }}">
+                        <img src="/assets/images/social/twitter.png" title="ASP on Twitter" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://500px.com/{{ site.500px_username }}">
+                        <img src="/assets/images/social/500px.png" title="ASP on 500px" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://www.flickr.com/photos/{{ site.flickr_username }}">
+                        <img src="/assets/images/social/flickr.png" title="ASP on Flickr" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:2%;">&nbsp;</div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>

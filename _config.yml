@@ -1,0 +1,30 @@
+# Site settings
+title: Adam Smith-Platts
+tag: var post = new SmithPlatts.Post<TTitle, TBody>("blah", "blah blah …");
+email: a.smithplatts@me.com
+description: > # this means to ignore newlines until "baseurl:"
+
+# excerpt_separator: <!--more-->
+timezone: Australia/Sydney
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://smithplatts.github.io" # the base hostname & protocol for your site
+500px_username:   SmithPlatts
+flickr_username:  isplatts
+github_username:  SmithPlatts
+github_reponame:  smithplatts.github.io
+twitter_username: SmithPlatts
+so_userid:        2412624
+so_username:      smithplatts
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values: 
+      layout: "post"
+      author: "Adam Smith-Platts"
+
+# Build settings
+markdown:  kramdown
+permalink: /:year/:month/:title/

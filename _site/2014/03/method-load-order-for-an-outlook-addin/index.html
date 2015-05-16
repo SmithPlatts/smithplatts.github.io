@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>Method Load Order for a .NET Outlook Addin</title>
+    <meta name="description" content="I have been creating a .NET Outlook addin lately and it has been an incredible learning journey. I have had to support 3 generations of Outlook, using the ba...">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://smithplatts.github.io/2014/03/method-load-order-for-an-outlook-addin/">
+    <link rel="alternate" type="application/rss+xml" title="Adam Smith-Platts" href="http://smithplatts.github.io/feed.xml" />
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+
+    <body>
+
+        <header id="site-header" class="site-header">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Adam Smith-Platts</a>
+        <div class="site-tag">var post = new SmithPlatts.Post<TTitle, TBody>("blah", "blah blah …");</div>
+
+        <nav class="site-nav">
+            <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+            </a>
+
+            <div class="trigger">
+            
+                
+                <li>
+                <a class="page-link" href="/colophon/">Colophon</a>
+                
+                </li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/cli-tools/">CLi Tools</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/cli-tools/enuminstalledapp/">| EnumInstalledApp</a></li><li><a class="page-link" href="/cli-tools/promotenta/">| PromoteNTA</a><ul class="submenu"><li><a class="page-link" href="/cli-tools/promotenta/devresource/">| Developer Resource</a></li></ul></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/coffeebuzz/">Coffee Buzz</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/coffeebuzz/changelog/">| Change Log</a></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+            
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+
+        <div id="page-content" class="page-content">
+            <div class="wrapper">
+                <div class="post">
+
+    <header class="post-header">
+        
+        <h1 class="post-title">Method Load Order for a .NET Outlook Addin</h1>
+        
+        <p class="post-meta">Mar 1, 2014 • Adam Smith-Platts</p>
+    </header>
+
+    <article class="post-content">
+        
+        <div class="migrated">This post was originaly published to <a href="https://stuffthebox.wordpress.com/2014/03/01/method-load-order-for-an-outlook-addin/" target="_blank">Stuff the Box</a> on 1 Mar 2014</div>
+        
+        <p>I have been creating a .NET Outlook addin lately<sup id="fnref:WLB"><a href="#fn:WLB" class="footnote">1</a></sup> and it has been an incredible learning journey. I have had to support 3 generations of Outlook, using the base bottom COM feature/API set (oldest supported; 2007), and have still had to stay within the speed requirements of the latest supported (2013) :-/</p>
+
+<p>One thing that perplexed me was how I could hook in, early enough, to the addin load/startup process to subscribe to the <code>AppDomain.UnHandledException</code> and <code>Application.ThreadException</code> event handlers so that I can log exceptions. This is desired because Outlook is so damned efficient that it decides to <abbr title="disable">kill</abbr> an addin as soon as it exhibits signs of <em>exception</em>al behaviour.</p>
+
+<h3 id="the-hunt">The Hunt</h3>
+
+<p>So, after looking around, I found nothing! I could not find a single site that outlined how the base method invocations are called and in what order :-(</p>
+
+<p>Never fear, however, because I have <code>Debug.WriteLine()</code> and an <strong><em>Output</em></strong> window! <br />
+So, this is the method invocation of my addin<sup id="fnref:CSharp"><a href="#fn:CSharp" class="footnote">2</a></sup><sup id="fnref:Classes"><a href="#fn:Classes" class="footnote">3</a></sup>:</p>
+
+<ol>
+  <li><code>AddInName(factory, serviceProvidor)</code> - your addin’s primary constructor</li>
+  <li><code>Initialize()</code></li>
+  <li><code>InitializeCachedData()</code></li>
+  <li><code>InitializeControls()</code></li>
+  <li><code>InitializeComponents()</code></li>
+  <li><code>InitializeData()</code></li>
+  <li><code>InitializeDataBindings()</code></li>
+  <li><code>BeginInitialization()</code></li>
+  <li><code>BindToData()</code></li>
+  <li><code>EndInitialization()</code></li>
+  <li><code>FinishInitialization()</code></li>
+  <li><code>OnStartup()</code></li>
+</ol>
+
+<p>When I see it laid out like this, it’s kinda logical haha <br />
+There were other methods in the base class, but at addin load/startup they were not called; so I did not investigate further as this served my purpose<sup id="fnref:Know-More"><a href="#fn:Know-More" class="footnote">4</a></sup>.</p>
+
+<h3 id="the-hunts-rewards">The Hunt’s Rewards</h3>
+
+<p>So after all that, it turns out that all I have is some trophies to hang on the wall<sup id="fnref:Trophies"><a href="#fn:Trophies" class="footnote">5</a></sup> instead of a nice dinner for the family<sup id="fnref:Dinner"><a href="#fn:Dinner" class="footnote">6</a></sup>.</p>
+
+<p>What I have discovered is that the best practices for VSTO addin’s is to use <strong><em>lots</em></strong> of <code>try { } catch { }</code> blocks around all executed code :-/</p>
+
+<p>It is still accepted to add the desired <code>UnHandledException</code> (and <code>ThreadException</code><sup id="fnref:Exception-Namespace"><a href="#fn:Exception-Namespace" class="footnote">7</a></sup>) catch/es, but you shouldn’t rely on them alone. What I have done is create an <code>internal static void UnHandledException(...)</code> method that can be called from anywhere and log the details. It does a <code>throw</code> at the end so that the addin gets disabled by Outlook, as it should.</p>
+
+<p>All this just to get logging so that I could identify what was causing an exception on that damn unsupported OS … which turned out to be in vain! I forgot that I had updated the addin to .NET 4.5 for a new feature of which I had created and added, but the unsupported OS that was having the exception only supports up to .NET 4. Yes, I am that daft! haha</p>
+
+<p>Alas, the journey and experience was worth it; I hope you may gain some benefit from my playing :-D</p>
+
+<p>Happy coding!</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:WLB">
+      <p>Mainly for fun, and in my own time … however it does have a work purpose ;-P <a href="#fnref:WLB" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:CSharp">
+      <p>As you may have noticed, I am a C# developer. I can, and do (because I have to), develop in VB.NET, but C# is my playground and I love it! <a href="#fnref:CSharp" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:Classes">
+      <p>These method names appear in <code>AddInName.Designer.cs</code> within the base <code>AddInName</code> class; although there are other classes in that file, they did not appear to load on startup for my addin. Your mileage may vary. <a href="#fnref:Classes" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:Know-More">
+      <p>If you do more investigation, I would love to hear about your results! <a href="#fnref:Know-More" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:Trophies">
+      <p>A list on a blog of what runs and in what order :/ <a href="#fnref:Trophies" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:Dinner">
+      <p>An identified entry point for an <code>AppDomain.UnHandledException</code> and/or an <code>Application.ThreadException</code> <a href="#fnref:Dinner" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:Exception-Namespace">
+      <p>You will need to specify the full namespace path to <code>System.Windows.Forms.Application</code> as the default <code>Application</code> reference will resolve to <code>Microsoft.Office.Interop.Outlook</code> which doesn’t have a <code>ThreadException</code> event to subscribe to. <a href="#fnref:Exception-Namespace" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    </article>
+
+</div>
+
+            </div>
+        </div>
+
+        <div id="hover-footer" class="site-footer"></div>
+
+<footer class="site-footer">
+
+    <div id="footer-wrapper" class="wrapper">
+        <div class="footer-col-wrapper">
+
+            <div class="footer-col footer-col-1">
+                <h1 class="footer-heading">PROFESSIONAL AND DEVELOPMENT</h1>
+                <div style="text-align:center;">
+                    <a href="http://stackoverflow.com/users/2412624/smithplatts">
+                        <img src="http://stackoverflow.com/users/flair/2412624.png?theme=clean" width="215" height="60" alt="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                    </a>
+                    <p style="padding-top: 15px;">
+                        For my online CV of sorts, you can view my SO Careers profile <a href="http://careers.stackoverflow.com/smithplatts">here</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <h1 class="footer-heading">SOCIAL MEDIA STUFFS</h1>
+                <div style="float:left; width:2%;">&nbsp;</div>
+                <div style="float:left; width:24%;">
+                    <a href="/feed.xml">
+                        <img src="/assets/images/social/rss.png" title="ASP in your Feed" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://twitter.com/SmithPlatts">
+                        <img src="/assets/images/social/twitter.png" title="ASP on Twitter" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://500px.com/SmithPlatts">
+                        <img src="/assets/images/social/500px.png" title="ASP on 500px" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://www.flickr.com/photos/isplatts">
+                        <img src="/assets/images/social/flickr.png" title="ASP on Flickr" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:2%;">&nbsp;</div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+    </body>
+
+</html>

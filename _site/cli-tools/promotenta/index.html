@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>PromoteNTA</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://smithplatts.github.io/cli-tools/promotenta/">
+    <link rel="alternate" type="application/rss+xml" title="Adam Smith-Platts" href="http://smithplatts.github.io/feed.xml" />
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+
+    <body>
+
+        <header id="site-header" class="site-header">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Adam Smith-Platts</a>
+        <div class="site-tag">var post = new SmithPlatts.Post<TTitle, TBody>("blah", "blah blah …");</div>
+
+        <nav class="site-nav">
+            <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+            </a>
+
+            <div class="trigger">
+            
+                
+                <li>
+                <a class="page-link" href="/colophon/">Colophon</a>
+                
+                </li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/cli-tools/">CLi Tools</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/cli-tools/enuminstalledapp/">| EnumInstalledApp</a></li><li><a class="page-link" href="/cli-tools/promotenta/">| PromoteNTA</a><ul class="submenu"><li><a class="page-link" href="/cli-tools/promotenta/devresource/">| Developer Resource</a></li></ul></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/coffeebuzz/">Coffee Buzz</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/coffeebuzz/changelog/">| Change Log</a></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+            
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+
+        <div id="page-content" class="page-content">
+            <div class="wrapper">
+                <div class="post">
+
+    <header class="post-header">
+        
+        <h1 class="post-title">PromoteNTA - Promote a Notification Tray Application</h1>
+        
+    </header>
+
+	<article class="post-content">
+        
+<div class="showcase center no-border">
+    <img alt="PromoteNTA-Logo" src="/assets/images/promotenta/promotenta.png" width="150" /><br />
+    PromoteNTA is little command line utility that can be used to "promote" a Notification Tray application state.
+</div>
+
+<h2 id="um--what">Um … what?</h2>
+
+<div class="showcase">
+    <img alt="NTray" src="/assets/images/promotenta/promotenta_01.jpg" height="48" />
+</div>
+
+<p>If you have the <abbr title="Windows™ XP, Windows™ Vista, Windows™ 7, Windows™ 8.x">Windows™</abbr> (XP/7/8) Notification Tray (the one in the bottom right corner) configured with default settings, it will hide any application that isn’t active; i.e. telling (notifying) you about something. There are two other states an application can be promoted to, <em>always hide</em> or <em>always show</em>. Windows doesn’t provide a way to programatically “promote” the state of an application tray but instead only allows a user to set this using the User Interface.</p>
+
+<p>PromoteNTA is a way for software developers or system admins to centrally promote an application state for any/all user/s.</p>
+
+<h2 id="cool-how-do-i-use-it">Cool, how do I use it?</h2>
+
+<p>It’s a command line utility that can be used in scripts, SCCM packages, <em>et cetera</em>. It has been designed to never halt or pause, so it is safe in silent deployments.</p>
+
+<p>It requires being executed by the user that you want the setting to apply to, so it needs to be assigned to users, used in a logon script, or any way you have to allow utilities to run for users without them needing to actually do something. Unless the registry hive <code>HKEY_CURRENT_USER</code> is protected for some reason, it will run without the need for admin rights/UAC.</p>
+
+<p>To use it, you just need to specify the appropriate command line options:</p>
+
+<div class="showcase center">
+    <a href="/assets/images/promotenta/promotenta_02.jpg"><img alt="PromoteNTA_Help" src="/assets/images/promotenta/promotenta_02.jpg" width="550" height="244" /></a>
+</div>
+
+<ul>
+  <li><strong>ApplicationName</strong> <br />
+The name of the application you want to promote. This can be either the full name or partial; however, to avoid incorrect search, it is best to use the full name</li>
+  <li><strong>-CS</strong> <br />
+When this command line option is used, the search for the <strong><em>ApplicationName</em></strong> is perfomed with case sensitivity</li>
+  <li><strong>-RE</strong> <br />
+Restarts explorer.exe to force the change to apply instantly; if not specified the change will not apply till next logoff/logon</li>
+  <li><strong>-Set <em>[x]</em></strong> <br />
+The promotion state to set. Appropriate values are 0 - 2, where:
+    <ul>
+      <li><em>0 = hide inactive</em></li>
+      <li><em>1 = always hide</em></li>
+      <li><em>2 = always show</em></li>
+    </ul>
+  </li>
+  <li><strong>-?</strong> <br />
+Show the syntax help</li>
+</ul>
+
+<p><strong>Example:</strong> <br />
+<code>&gt; PromoteNTA.exe DropBox.exe -RE -Set 2</code></p>
+
+<p><em><strong>N.B.</strong> the application that you want to promote needs to have been executed at least once for the user that PromoteNTA is running for else the search will return and <strong>NotFound</strong> error code.</em></p>
+
+<h2 id="im-developing-an-application-that-has-a-notification-tray-icon-do-i-just-call-this-in-the-app-or-is-there-an-assemblylibrary-i-can-use">I’m developing an application that has a Notification Tray icon, do I just call this in the app or is there an assembly/library I can use?</h2>
+
+<p>You can use the DLL file that is included with PromoteNTA.exe, however I have created a <a href="./devresource/" title="Assembly.PromotNTA – Promote a Notification Tray Application [Developer Resource]">DLL library for other developers</a> to use which includes proper summaries and instructions on it’s use.</p>
+
+<h2 id="what-computer-system-is-it-designed-for">What computer system is it designed for?</h2>
+
+<p>PromoteNTA is a utility for Microsoft Windows. It has been tested and designed for Windows XP (all versions), Windows 7 (all versions) and Windows 8.</p>
+
+<h2 id="what-if-i-have-a-problem-with-it-or-have-a-suggestion">What if I have a problem with it or have a suggestion?</h2>
+
+<p>Just drop me a line! I cannot guarantee that I will respond straight away, as this is a hobby and I have a very busy work and home life, but I will respond. I am proud of what I create and I want it to work for you.</p>
+
+<h2 id="free">Free?</h2>
+
+<p>Ayup! Go nuts and use and share in any environment. <br />
+It’s ©2013 Adam Smith-Platts, so please do not sell or receive donation.</p>
+
+<h2 id="pure-awesomesauce-where-do-i-get-it">Pure awesomesauce! Where do I get it?!</h2>
+
+<p><a href="/assets/releases/promotenta/PromoteNTA.zip" title="Download PromoteNTA">Click here to download the program</a>. It will download as a zip file, which you then extract the <code>.EXE</code> and <code>.DLL</code> to any folder (so long as they are together!), open a command prompt window and have at it!</p>
+
+<p>It will run from USB drive, external HDD, network location, <em>et cetera</em></p>
+
+<p>Enjoy!</p>
+
+    </article>
+
+</div>
+
+            </div>
+        </div>
+
+        <div id="hover-footer" class="site-footer"></div>
+
+<footer class="site-footer">
+
+    <div id="footer-wrapper" class="wrapper">
+        <div class="footer-col-wrapper">
+
+            <div class="footer-col footer-col-1">
+                <h1 class="footer-heading">PROFESSIONAL AND DEVELOPMENT</h1>
+                <div style="text-align:center;">
+                    <a href="http://stackoverflow.com/users/2412624/smithplatts">
+                        <img src="http://stackoverflow.com/users/flair/2412624.png?theme=clean" width="215" height="60" alt="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                    </a>
+                    <p style="padding-top: 15px;">
+                        For my online CV of sorts, you can view my SO Careers profile <a href="http://careers.stackoverflow.com/smithplatts">here</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <h1 class="footer-heading">SOCIAL MEDIA STUFFS</h1>
+                <div style="float:left; width:2%;">&nbsp;</div>
+                <div style="float:left; width:24%;">
+                    <a href="/feed.xml">
+                        <img src="/assets/images/social/rss.png" title="ASP in your Feed" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://twitter.com/SmithPlatts">
+                        <img src="/assets/images/social/twitter.png" title="ASP on Twitter" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://500px.com/SmithPlatts">
+                        <img src="/assets/images/social/500px.png" title="ASP on 500px" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://www.flickr.com/photos/isplatts">
+                        <img src="/assets/images/social/flickr.png" title="ASP on Flickr" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:2%;">&nbsp;</div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+    </body>
+
+</html>

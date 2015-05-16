@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="post">
+
+    <header class="post-header">
+        {% if page.post-title %}
+        <h1 class="post-title">{{ page.post-title }}</h1>
+        {% else %}
+        <h1 class="post-title">{{ page.title }}</h1>
+        {% endif %}
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}</p>
+    </header>
+
+    <article class="post-content">
+        {% if page.imported %}
+        <div class="migrated">This post was originaly published to <a href="{{ page.imported-from }}" target="_blank">{{ page.imported }}</a> on {{ page.date | date: "%-d %b %Y" }}</div>
+        {% endif %}
+        {{ content }}
+    </article>
+
+</div>

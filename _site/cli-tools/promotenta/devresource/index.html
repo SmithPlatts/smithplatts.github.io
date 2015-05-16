@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>Developer Resource</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://smithplatts.github.io/cli-tools/promotenta/devresource/">
+    <link rel="alternate" type="application/rss+xml" title="Adam Smith-Platts" href="http://smithplatts.github.io/feed.xml" />
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+
+    <body>
+
+        <header id="site-header" class="site-header">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Adam Smith-Platts</a>
+        <div class="site-tag">var post = new SmithPlatts.Post<TTitle, TBody>("blah", "blah blah …");</div>
+
+        <nav class="site-nav">
+            <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+            </a>
+
+            <div class="trigger">
+            
+                
+                <li>
+                <a class="page-link" href="/colophon/">Colophon</a>
+                
+                </li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/cli-tools/">CLi Tools</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/cli-tools/enuminstalledapp/">| EnumInstalledApp</a></li><li><a class="page-link" href="/cli-tools/promotenta/">| PromoteNTA</a><ul class="submenu"><li><a class="page-link" href="/cli-tools/promotenta/devresource/">| Developer Resource</a></li></ul></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/coffeebuzz/">Coffee Buzz</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/coffeebuzz/changelog/">| Change Log</a></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+            
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+
+        <div id="page-content" class="page-content">
+            <div class="wrapper">
+                <div class="post">
+
+    <header class="post-header">
+        
+        <h1 class="post-title">Assembly.PromotNTA - Promote a Notification Tray Application [Developer Resource]</h1>
+        
+    </header>
+
+	<article class="post-content">
+        <p><a href="/assets/releases/promotenta/Assembly.PromoteNTA.zip" title="Download Assembly.PromoteNTA">Click here to download</a> the <code>Assembly.PromoteNTA.DLL</code> assembly library for developers.</p>
+
+<h2 id="so-what-can-i-do-with-it">So what can I do with it?</h2>
+
+<ul>
+  <li>Retrieve the current state of the application
+    <ul>
+      <li>Search for application with or without case sensitivity</li>
+    </ul>
+  </li>
+  <li>Set the promotion state of an application
+    <ul>
+      <li>Search for application with or without case sensitivity</li>
+      <li>Specify the promotion state to set</li>
+    </ul>
+  </li>
+</ul>
+
+<p>If, when setting a promotion state, you do not specify which state to set, the default is to configure to always show (<code>PS_Show</code>).</p>
+
+<p>To help with ensuring the appropriate settings are used, an <code>Int32</code> based enumeration has been configured called <code>PromoteState</code> which includes:</p>
+
+<ul>
+  <li><code>PS_NotFoundorError</code>, -1</li>
+  <li><code>PS_NotifyOnly</code>, 0</li>
+  <li><code>PS_Hidden</code>, 1</li>
+  <li><code>PS_Show</code>, 2</li>
+</ul>
+
+<p>These values allow for easy configuration and recognition to ensure that the right settings and returns are achieved.</p>
+
+<h2 id="how-do-i-use-it-in-my-project">How do I use it in my project?</h2>
+
+<p><em><strong>N.B.</strong> these instructions are for Visual Studio as that is my IDE</em></p>
+
+<ul>
+  <li><a href="/assets/releases/promotenta/Assembly.PromoteNTA.zip" title="Download Assembly.PromoteNTA">Download the ZIP</a> and expand the <code>.DLL</code> and <code>.XML</code> to the same directory, preferably somewhere in/near the project directory</li>
+  <li>In <strong><em>Visual Studio</em></strong>, navigate to <strong>References</strong> in the <strong>Solution Explorer</strong> and right click
+    <ul>
+      <li>Select <strong>Add Reference…</strong></li>
+    </ul>
+  </li>
+  <li>Click the <strong>Browse</strong> tab and navigate to the location that you saved the <code>.DLL</code> and <code>.XML</code> to and highlight the <code>.DLL</code> file
+    <ul>
+      <li>Click <strong>OK</strong> once the <code>.DLL</code> is highlighted</li>
+    </ul>
+  </li>
+  <li>The reference will be loaded and the namespace can be added and used
+    <ul>
+      <li>The <code>.XML</code> needs to be in the same location as the referenced <code>.DLL</code> as this contains the summaries and method instructions</li>
+      <li><em><strong>N.B.</strong> due to the naming convention, if you are using the <code>Assembly</code> namespace for anything, you will have to reference those methods, et cetera, with the full namespace path. Sorry about this, but I liked the name and VS projects are difficult to rename once named … especially if it’s committed to a VCS …</em></li>
+    </ul>
+  </li>
+</ul>
+
+<p>When you build/compile, the <code>.DLL</code> should be copied to the output directory by <strong><em>Visual Studio</em></strong> for you.</p>
+
+<h2 id="attribution">Attribution?</h2>
+
+<p>This developer resource is ©2013 Adam Smith-Platts, and as such I would greatly appreciate a mention in your application with a link to this page when used; this is not required however. Just please do not sell or receive donation.</p>
+
+<p>Sharing and use in any environment completely allowed and encouraged :)</p>
+
+<p>Enjoy!</p>
+
+    </article>
+
+</div>
+
+            </div>
+        </div>
+
+        <div id="hover-footer" class="site-footer"></div>
+
+<footer class="site-footer">
+
+    <div id="footer-wrapper" class="wrapper">
+        <div class="footer-col-wrapper">
+
+            <div class="footer-col footer-col-1">
+                <h1 class="footer-heading">PROFESSIONAL AND DEVELOPMENT</h1>
+                <div style="text-align:center;">
+                    <a href="http://stackoverflow.com/users/2412624/smithplatts">
+                        <img src="http://stackoverflow.com/users/flair/2412624.png?theme=clean" width="215" height="60" alt="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                    </a>
+                    <p style="padding-top: 15px;">
+                        For my online CV of sorts, you can view my SO Careers profile <a href="http://careers.stackoverflow.com/smithplatts">here</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <h1 class="footer-heading">SOCIAL MEDIA STUFFS</h1>
+                <div style="float:left; width:2%;">&nbsp;</div>
+                <div style="float:left; width:24%;">
+                    <a href="/feed.xml">
+                        <img src="/assets/images/social/rss.png" title="ASP in your Feed" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://twitter.com/SmithPlatts">
+                        <img src="/assets/images/social/twitter.png" title="ASP on Twitter" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://500px.com/SmithPlatts">
+                        <img src="/assets/images/social/500px.png" title="ASP on 500px" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:24%;">
+                    <a href="https://www.flickr.com/photos/isplatts">
+                        <img src="/assets/images/social/flickr.png" title="ASP on Flickr" width="75" height="75" />
+                    </a>
+                </div>
+                <div style="float:left; width:2%;">&nbsp;</div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+    </body>
+
+</html>
