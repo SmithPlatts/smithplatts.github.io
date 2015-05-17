@@ -14,7 +14,7 @@
 
         {% if current == include.context %}
             <li>
-                <a class="page-link" href="{{ site.baseurl }}{{ entry.url }}">| {{ entry.title }}</a>
+                <a class="page-link" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
                 {% if entry.has-children == true %}{% include navigation.html class=include.class context=entry.url %}{% endif %}
             </li>
         {% endif %}

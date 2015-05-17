@@ -20,7 +20,7 @@ You may not, however, sell or receive donation in any way shape or form.
 
 ---
 
-### EnumInstalledApp
+### [EnumInstalledApp](enuminstalledapp/)
 
 ***Query the Registry Uninstall Key***
 
@@ -58,7 +58,7 @@ The .NET framework version 4 is required to be able to run EnumInstalledApp. Win
 
 ---
 
-### PromoteNTA
+### [PromoteNTA](promotenta/)
 
 ***Promote a Notification Tray application***
 

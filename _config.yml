@@ -1,6 +1,6 @@
 # Site settings
 title: Adam Smith-Platts
-tag: var post = new SmithPlatts.Post<TTitle, TBody>("blah", "blah blah …");
+tag: var post = new SmithPlatts.Post&lt;TTitle, TBody&gt;("blah", "blah blah ...");
 email: a.smithplatts@me.com
 description: > # this means to ignore newlines until "baseurl:"
 
