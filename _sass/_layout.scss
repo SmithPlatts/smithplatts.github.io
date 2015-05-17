@@ -220,6 +220,11 @@ h2.post-list-heading {
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    
+    img {
+        margin-bottom: 3px;
+        vertical-align: middle;
+    }
 }
 
 .post-link {

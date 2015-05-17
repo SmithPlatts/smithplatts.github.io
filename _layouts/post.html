@@ -10,7 +10,15 @@ layout: default
         {% else %}
         <h1 class="post-title">{{ page.title }}</h1>
         {% endif %}
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}</p>
+        <p class="post-meta">
+            {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %} • 
+            <a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url | uri_escape }}&text={{ page.title | uri_escape }}&via={{ site.twitter_username }}" target="_blank">
+                <img src="/assets/images/logos/twitter_logo_blue.png" height="16" />
+            </a> 
+            <a href="mailto:?subject={{ page.title | uri_escape }}&body=Read this and thought I'd share: {{ page.url | prepend: site.url | uri_escape }}">
+                <img src="/assets/images/logos/mail.png" height="24" />
+            </a>
+        </p>
     </header>
 
     <article class="post-content">
