@@ -19,6 +19,9 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 /**
@@ -140,6 +143,8 @@ pre,
 code {
     font-size: $base-font-size;
     border: 1px solid $grey-color-light;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
     border-radius: 3px;
     background-color: #eef;
 }

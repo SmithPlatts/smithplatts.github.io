@@ -64,6 +64,8 @@
         right: 15px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
         border-radius: 5px;
         text-align: right;
         line-height: $base-line-height;
@@ -118,13 +120,21 @@
     height: 85px;
     opacity: 0;
     position: fixed;
+    -moz-transition: visibility 0s linear 0.5s, opacity 0.2s linear;
+    -o-transition: visibility 0s linear 0.5s, opacity 0.2s linear;
+    -webkit-transition: visibility 0s linear 0.5s, opacity 0.2s linear;
     transition: visibility 0s linear 0.5s, opacity 0.2s linear;
     visibility: hidden;
+    -webkit-backface-visibility: hidden; 
+    -webkit-transform: translateZ(0);
     width: 100%;
 }
 
 #hover-footer.scroll-down {
     opacity: 1;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    -webkit-transition-delay: 0s;
     transition-delay: 0s;
     visibility: visible;
     
@@ -203,6 +213,8 @@
     article.excerpt {
         background-color: lighten(whitesmoke, 2%);
         border: 1px solid $grey-color-light;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
         border-radius: 5px;
         margin-top: 10px;
         padding: 12px 10px 1px 10px;
@@ -251,6 +263,8 @@ h2.post-list-heading {
     div.migrated {
         background-color: lighten(whitesmoke, 2%);
         border: 1px solid $grey-color-light;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
         border-radius: 5px;
         font-style: italic;
         margin-bottom: $spacing-unit;
