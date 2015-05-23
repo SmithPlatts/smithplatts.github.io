@@ -14,7 +14,7 @@
     <![endif]-->
     
     <link rel="apple-touch-icon" href="/assets/images/logos/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="SmithPlatts">
+    <meta name="apple-mobile-web-app-title" content="{% if page.title %}SP - {{ page.title }}{% else %}SmithPlatts{% endif %}">
     
     {% include analytics.html %}
 </head>
