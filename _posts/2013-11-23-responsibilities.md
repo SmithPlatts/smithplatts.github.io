@@ -16,7 +16,7 @@ I have recently upgraded the account to include ticketing features. This now all
 With these new features in Assembla active, I have embarked on:
 
 - a refinement release of [`Coffee Buzz`](/coffeebuzz/ "Coffee Buzz – Give Your Computer a Buzz!")
-- a new CLi tool called `EnumInstalledApp`
+- a new CLi tool called [`EnumInstalledApp`](/cli-tools/enuminstalledapp/ "EnumInstalledApp - Query the Registry Uninstall Key")
 - *finally* releasing my `Codeless Language Module` for [KiXtart](http://en.wikipedia.org/wiki/KiXtart "Wikipedia Definition for KiXtart") support in [BBEdit](http://www.barebones.com/products/bbedit/ "Product page for BBEdit")/[TextWrangler](http://www.barebones.com/products/textwrangler/ "Product page for TextWrangler")
 
 Hopefully, by setting up the ticketing support, this blog post and other factors, it may help keep me on track and complete these projects!

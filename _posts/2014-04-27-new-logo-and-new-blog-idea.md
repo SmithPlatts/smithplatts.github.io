@@ -14,7 +14,9 @@ Heck, even my author name on my old blog was @SmithPlatts.
 So, I have created a new logo to reflect my personal and online presence:
 
 <div class="showcase center no-border">
-    <img src="/assets/images/logos/sp_logo_small.png" />
+    <a class="fancybox" href="/assets/images/logos/sp_logo_medium.png">
+        <img src="/assets/images/logos/sp_logo_small.png" />
+    </a>
 </div>
 
 I have converted it to many different sizes and it scales very well. The original is 1000 x 1000 *px*, but I have scaled it down to 16 x 16 *px*, i.e. for a low resolution icon, and it still looks good!

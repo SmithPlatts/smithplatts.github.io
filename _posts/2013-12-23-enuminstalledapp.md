@@ -13,7 +13,9 @@ EnumInstalledApp is the CLi utility for you!
 EnumInstalledApp queries the `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall` registry key for a particular keyword or full name as passed on the command line. It's scope, by default, is to find registry sub keys whose `DisplayName` value contains the passed keyword/s. It will list each match by sub key name, `DisplayName` and `DisplayVersion`:
 
 <div class="showcase center">
-    <img src="/assets/images/enuminstalledapp/enuminstalledapp_example.jpg" alt="EnumInstalledApp in Action!" width="580" height="379" /><br />
+    <a class="fancybox" href="/assets/images/enuminstalledapp/enuminstalledapp_example.jpg" title="EnumInstalledApp in Action!">
+        <img src="/assets/images/enuminstalledapp/enuminstalledapp_example.jpg" alt="EnumInstalledApp in Action!" width="580" height="379" />
+    </a><br />
     EnumInstalledApp in Action!
 </div>
 

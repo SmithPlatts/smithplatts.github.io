@@ -51,7 +51,9 @@ The .NET framework version 4 is required to be able to run EnumInstalledApp. Win
 **Example/s**
 
 <div class="showcase">
-    <a href="/assets/images/enuminstalledapp/enuminstalledapp_example.jpg"><img src="/assets/images/enuminstalledapp/enuminstalledapp_example.jpg" alt="EnumInstalledApp in Action!" width="150" /></a>
+    <a class="fancybox" href="/assets/images/enuminstalledapp/enuminstalledapp_example.jpg" title="EnumInstalledApp in Action!">
+        <img src="/assets/images/enuminstalledapp/enuminstalledapp_example.jpg" alt="EnumInstalledApp in Action!" width="150" />
+    </a>
 </div>
 
 <a name="PromoteNTA"></a>

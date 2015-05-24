@@ -68,7 +68,9 @@ Alas, the problem is fixed and life can move on :-P
 Well; there we go. It has been some time since my last post, and it felt great! Sorry for such a long and possibly boring post, but meh. It's my site, so
 
 <div class="showcase center">
-    <img title="Cartman" src="/assets/images/whatever_i_do_what_i_want.png" width="500" />
+    <a class="fancybox" href="/assets/images/whatever_i_do_what_i_want.png">
+        <img title="Cartman" src="/assets/images/whatever_i_do_what_i_want.png" width="500" />
+    </a>
 </div>
 
 To all who were kind enough to get to this point, take care and thanks! :-D

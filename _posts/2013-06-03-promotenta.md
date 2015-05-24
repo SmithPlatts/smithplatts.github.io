@@ -7,7 +7,9 @@ imported-from: https://stuffthebox.wordpress.com/2013/06/03/promotenta/
 Well, here it is, my second application!!!
 
 <div class="showcase center no-border">
-    <img src="/assets/images/promotenta/promotenta.png" alt="PromoteNTA-Logo" title="PromoteNTA – Promote a Notification Tray Application" width="150" /><br />
+    <a class="fancybox" href="/assets/images/promotenta/promotenta.png" title="PromoteNTA – Promote a Notification Tray Application"> 
+        <img src="/assets/images/promotenta/promotenta.png" alt="PromoteNTA-Logo" title="PromoteNTA – Promote a Notification Tray Application" width="150" />
+    </a><br />
     PromoteNTA is little command line utility that can be used to “promote” a Notification Tray application state
 </div>
 

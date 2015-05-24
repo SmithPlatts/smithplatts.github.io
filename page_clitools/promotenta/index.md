@@ -10,14 +10,18 @@ permalink: /cli-tools/promotenta/
 *[Windows™]: Windows™ XP, Windows™ Vista, Windows™ 7, Windows™ 8.x
 
 <div class="showcase center no-border">
-    <img alt="PromoteNTA-Logo" src="/assets/images/promotenta/promotenta.png" width="150" /><br />
+    <a class="fancybox" href="/assets/images/promotenta/promotenta.png" title="{{ page.page-title }}">
+        <img alt="PromoteNTA-Logo" src="/assets/images/promotenta/promotenta.png" width="150" />
+    </a><br />
     PromoteNTA is little command line utility that can be used to "promote" a Notification Tray application state.
 </div>
 
 ## Um ... what?
 
 <div class="showcase">
-    <img alt="NTray" src="/assets/images/promotenta/promotenta_01.jpg" height="48" />
+    <a class="fancybox" href="/assets/images/promotenta/promotenta_01.jpg" title="The Windows Notification Tray">
+        <img alt="NTray" src="/assets/images/promotenta/promotenta_01.jpg" height="48" />
+    </a>
 </div>
 
 If you have the Windows™ (XP/7/8) Notification Tray (the one in the bottom right corner) configured with default settings, it will hide any application that isn't active; i.e. telling (notifying) you about something. There are two other states an application can be promoted to, *always hide* or *always show*. Windows doesn't provide a way to programatically "promote" the state of an application tray but instead only allows a user to set this using the User Interface.
@@ -33,7 +37,9 @@ It requires being executed by the user that you want the setting to apply to, so
 To use it, you just need to specify the appropriate command line options:
 
 <div class="showcase center">
-    <a href="/assets/images/promotenta/promotenta_02.jpg"><img alt="PromoteNTA_Help" src="/assets/images/promotenta/promotenta_02.jpg" width="550" height="244" /></a>
+    <a class="fancybox" href="/assets/images/promotenta/promotenta_02.jpg" title="Command Line Options / Help">
+        <img alt="PromoteNTA_Help" src="/assets/images/promotenta/promotenta_02.jpg" width="550" height="244" />
+    </a>
 </div>
 
 - **ApplicationName** <br />

@@ -7,7 +7,9 @@ permalink: /coffeebuzz/
 ---
 
 <div class="showcase">
-    <img src="/assets/images/coffeebuzz/coffeebuzz_01.jpg?w=300" alt="Coffee Buzz in the Notification Tray" width="300" height="43" />
+    <a class="fancybox" href="/assets/images/coffeebuzz/coffeebuzz_01.jpg" title="Coffee Buzz in the Notification Tray">
+        <img src="/assets/images/coffeebuzz/coffeebuzz_01.jpg?w=300" alt="Coffee Buzz in the Notification Tray" width="300" height="43" />
+    </a>
 </div>
 
 Coffee Buzz is a little Notification Tray application that can be used to prevent your computer from going to sleep. When Coffee Buzz kicks in and gives your computer a buzz, the screensaver and sleep modes will be \[temporarily] disabled so that you can work without fear of your machine going to screensaver while watching a movie or showing an important presentation in the board room or at Uni.
@@ -33,7 +35,9 @@ There are also options to only give the computer a temporary *Buzz!*
 Only want the screensaver to remain inactivate or stay awake for 30 minutes; no problem!
 
 <div class="showcase">
-    <img src="/assets/images/coffeebuzz/coffeebuzz_02.jpg" alt="Coffee Buzz Options" width="235" height="239" />
+    <a class="fancybox" href="/assets/images/coffeebuzz/coffeebuzz_02.jpg" title="Coffee Buzz Options">
+        <img src="/assets/images/coffeebuzz/coffeebuzz_02.jpg" alt="Coffee Buzz Options" width="235" height="239" />
+    </a>
 </div>
 
 If you quit Coffee Buzz while it is giving your computer a *Buzz!*, it will return the computer to normal operating behaviour and will not leave it with the timers paused.
