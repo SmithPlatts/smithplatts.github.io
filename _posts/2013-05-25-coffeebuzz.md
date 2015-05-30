@@ -97,6 +97,6 @@ Just drop me a line! I cannot guarantee that I will respond straight away, as th
 
 [Click here to download **Coffee Buzz**](/assets/releases/CoffeeBuzz.zip). It will download as a zip file, which you can open and copy the program to USB stick or external hard drive. Just double click it on your computer and it will run.
 
-If you already have Coffee Buzz but want to be sure that you have the latest version, please check out the [change log/release notes](./changelog).
+If you already have Coffee Buzz but want to be sure that you have the latest version, please check out the [change log/release notes](/coffeebuzz/changelog/).
 
 Enjoy!
