@@ -4,9 +4,6 @@ imported: Stuff the Box
 imported-from: https://stuffthebox.wordpress.com/2014/04/27/new-logo-and-new-blog-idea/
 ---
 
-*[HG]: Mercurial
-*[SVN]: Subversion
-
 On [Twitter](https://twitter.com/{{ site.twitter_username }}) and on [Alpha](https://alpha.app.net/{{ site.twitter_username }}), I am @{{ site.twitter_username }}. <br />
 My GitHub, HG, and SVN usernames and/or repositories are called SmithPlatts.<br />
 Heck, even my author name on my old blog was @SmithPlatts.
@@ -32,3 +29,6 @@ But alas, I could not connect with its purpose. I found its premise to be an obs
 So, I have been contemplating creating a new blog. One that is primarily focused on code and software development, but not restricted to it. Since going down this path of software development, I have really felt that I have found my path, my calling. I love coding. So what better way to focus my thoughts then with a blog that actually reflects my passions.
 
 Once I create the new blog, and migrate my posts over, I will let you all know :)
+
+*[HG]: Mercurial
+*[SVN]: Subversion
