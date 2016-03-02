@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adam Smith-Platts</title>
+    <description></description>
+    <link>http://smithplatts.github.io/</link>
+    <atom:link href="http://smithplatts.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 02 Mar 2016 03:21:56 +0000</pubDate>
+    <lastBuildDate>Wed, 02 Mar 2016 03:21:56 +0000</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Welcome to the New SmithPlatts Blog!</title>
+        <description>&lt;p&gt;I posed the idea to change my blog to either a newly named/themed WordPress blog, or do something entirely different.&lt;br /&gt;&lt;br /&gt;
+Clearly, I went the &lt;em&gt;different&lt;/em&gt; route!&lt;/p&gt;
+
+&lt;p&gt;I wanted something that was fast, easy to add posts, and most of all simple. I created a new WordPress blog, migrated some posts over, changed the theme, did some other stuff … and then did nothing. It never felt right. I wasn’t sure what it was. Was it that it was still WordPress?&lt;/p&gt;
+
+&lt;p&gt;I have always liked WordPress. They have managed to create a huge self-service website hosting solution that caters for just about everyone. You can host your own. You can have them host it. You can run with free everything. You can pay for some really cool addon features.&lt;/p&gt;
+
+&lt;p&gt;But I was never a fan of the post editor/posting process. I found it cumbersome. I found it restricting. I am a technical person and therefore want to be able to write my posts in HTML or Markdown and publish as I see fit.&lt;/p&gt;
+
+&lt;p&gt;Yes, WordPress did offer some of those features, but it still seemed too … claustrophobic inducing?&lt;/p&gt;
+
+&lt;p&gt;So I kept an eye out; looked at what others were doing. That’s how I found out about static page-based sites/blogs. &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is one of the favourites, but there are many static site architectures and pre-processors out there. Essentially, you create your content in a dynamic and modular manner, then &lt;em&gt;build&lt;/em&gt; the site! It builds all the pages so that they are complete static representations of what you want them to be. This means that only one page is served for one link, to everyone. You can add in some &lt;code&gt;JS&lt;/code&gt; magic here and there, but the idea is that you don’t need to.&lt;/p&gt;
+
+&lt;p&gt;GitHub&lt;sup id=&quot;fnref:GitHub&quot;&gt;&lt;a href=&quot;#fn:GitHub&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; happens to also provide a pretty neat service called &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;. It is GitHub’s site hosting service which also incorporates Jekyll and other static site building technologies.&lt;/p&gt;
+
+&lt;p&gt;So, I created a site and had at it! And this is the fruit of the labour. A site that is created, themed, and coded the way I want giving me the ability to tweak or rewrite as I see fit!&lt;/p&gt;
+
+&lt;p&gt;And I am bloody happy with it!&lt;/p&gt;
+
+&lt;p&gt;If you have come over here from the old blog, the content will be similar to what you have already been used to. If you are new, it will be filled with ramblings about tech, code, motorbikes, or whatever the hell I feel like at the time.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!!!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:GitHub&quot;&gt;
+      &lt;p&gt;I know right, me, using GitHub, yeah. Although Git is not my preferred version control system, I go where the cool technology is; seeing as GitHub is hosting such an awesome blogging service, why the hell not! &lt;a href=&quot;#fnref:GitHub&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 01 Jun 2015 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2015/06/welcome-to-the-new-smithplatts/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2015/06/welcome-to-the-new-smithplatts/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>G&#39;Day and Welcome!</title>
+        <description>&lt;p&gt;This blog will cover such topics as: motorbikes/motorcycling, software development, tech stuff, music/bass guitar gear and stuff, personal tid-bits, and whatever else I feel like writing (complaining/ranting) about.&lt;/p&gt;
+
+&lt;p&gt;Each post has Twitter and Email sharing links. I do most of my discussions on Twitter so it makes sense to direct any blog-based discussions there too. Email contact is available via the &lt;a href=&quot;/colophon/&quot;&gt;colophon&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;So, welcome to my blog and enjoy your stay!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 May 2015 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2015/05/welcome/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2015/05/welcome/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>New Logo and New Blog Idea</title>
+        <description>&lt;p&gt;On &lt;a href=&quot;https://twitter.com/SmithPlatts&quot;&gt;Twitter&lt;/a&gt; and on &lt;a href=&quot;https://alpha.app.net/SmithPlatts&quot;&gt;Alpha&lt;/a&gt;, I am @SmithPlatts. &lt;br /&gt;
+My GitHub, &lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt;, and &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; usernames and/or repositories are called SmithPlatts.&lt;br /&gt;
+Heck, even my author name on my old blog was @SmithPlatts.&lt;/p&gt;
+
+&lt;p&gt;So, I have created a new logo to reflect my personal and online presence:&lt;/p&gt;
+
+&lt;div class=&quot;showcase center no-border&quot;&gt;
+    &lt;a class=&quot;fancybox&quot; href=&quot;/assets/images/logos/sp_logo_medium.png&quot;&gt;
+        &lt;img src=&quot;/assets/images/logos/sp_logo_small.png&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I have converted it to many different sizes and it scales very well. The original is 1000 x 1000 &lt;em&gt;px&lt;/em&gt;, but I have scaled it down to 16 x 16 &lt;em&gt;px&lt;/em&gt;, i.e. for a low resolution icon, and it still looks good!&lt;/p&gt;
+
+&lt;p&gt;Now, whenever I need a logo/image that warrants a less personal touch, I will use this new one. I will also be incorporating it into things I develop where I do not have a custom icon/logo.&lt;/p&gt;
+
+&lt;p&gt;I have also been contemplating a new blog.&lt;/p&gt;
+
+&lt;p&gt;When I first created this blog, I had no idea of what I wanted to use it for; no purpose. It was a place I could just jot down ideas, thoughts, rants, &lt;em&gt;etc&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;But alas, I could not connect with its purpose. I found its premise to be an obstacle as I required too much focus to post anything, and I would lose interest or would find the idea of writing a post too energy consuming.&lt;/p&gt;
+
+&lt;p&gt;So, I have been contemplating creating a new blog. One that is primarily focused on code and software development, but not restricted to it. Since going down this path of software development, I have really felt that I have found my path, my calling. I love coding. So what better way to focus my thoughts then with a blog that actually reflects my passions.&lt;/p&gt;
+
+&lt;p&gt;Once I create the new blog, and migrate my posts over, I will let you all know :)&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 27 Apr 2014 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2014/04/new-logo-and-new-blog-idea/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2014/04/new-logo-and-new-blog-idea/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Coffee Buzz 1.2</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/coffeebuzz/&quot;&gt;Coffee Buzz&lt;/a&gt; 1.2 is out!&lt;/p&gt;
+
+&lt;p&gt;Just a sniff of an update really:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Changed behaviour if you try to run more than one copy of Coffee Buzz on the same computer when logged in as the same user
+    &lt;ul&gt;
+      &lt;li&gt;Before, each time you tried to run a new copy when one was running, the new copy would just exit leaving the running version untouched. Now, it will tell the running version to Buzz! the machine :D&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fixed a consistency problem with the menu aware click-behaviour of the Notification Tray icon left-click&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, &lt;a href=&quot;/coffeebuzz/#download&quot;&gt;the new version is right here if you want it&lt;/a&gt;; as always, any issues please get in touch!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Apr 2014 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2014/04/coffee-buzz-1-2/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2014/04/coffee-buzz-1-2/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>pain =&gt; pain = hg.Convert(svn.RepoOrWc(&quot;Doesn&#39;t matter, it was all painful ...&quot;))</title>
+        <description>&lt;p&gt;&lt;strong&gt;WARNING&lt;/strong&gt; I swear a little in this post; if you don’t like swear words, move along … &lt;br /&gt;
+So I decided to take the plunge and convert my personal/private &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; repository to a Mercurial (&lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt;) repository.&lt;/p&gt;
+
+&lt;p&gt;My reasons for doing this are varied:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I have been wanting to play with &lt;abbr title=&quot;Distributed Version Control System&quot;&gt;DVCS&lt;/abbr&gt; for a while&lt;/li&gt;
+  &lt;li&gt;I don’t really like Git&lt;/li&gt;
+  &lt;li&gt;Mercurial appears to have matured somewhat over the last couple of years and seems very extensible and powerful&lt;/li&gt;
+  &lt;li&gt;Assembla, the &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; repository hosting service that I have been using, has been getting more and more annoying&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At work we use a lot of &lt;a href=&quot;https://www.atlassian.com/&quot;&gt;Atlassian&lt;/a&gt; products, and so I have been looking at &lt;a href=&quot;https://bitbucket.org/&quot;&gt;Bitbucket&lt;/a&gt; as a host for my &lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt; repository. A lot of developers I respect use it and like it, and it is free with unlimited private repositories and up to 5 users.&lt;/p&gt;
+
+&lt;p&gt;So the first thing I did was create an account on Bitbucket, which &lt;em&gt;seemed&lt;/em&gt; painless and simple. As part of the account creation process, you can create your first repository&lt;sup id=&quot;fnref:BitBucket-Defaults&quot;&gt;&lt;a href=&quot;#fn:BitBucket-Defaults&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;, which I did. Once the repository was created and I had customised it a little, I set out to import/convert/migrate my existing &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; repository to Bitbucket …&lt;/p&gt;
+
+&lt;p&gt;This is where the rant will begin …&lt;/p&gt;
+
+&lt;p&gt;Shit a brick!?! What a painful process!?!&lt;br /&gt;
+Seriously …&lt;/p&gt;
+
+&lt;h3 id=&quot;i-am-still-frustratingly-fuming&quot;&gt;I am still frustratingly fuming!&lt;/h3&gt;
+
+&lt;p&gt;I had saved a few articles to my &lt;a href=&quot;https://www.instapaper.com/&quot;&gt;Instapaper&lt;/a&gt; queue some time back when I first thought about doing this which documented how to migrate a &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; repository to a &lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt; repository, but when it came time to follow them, they didn’t work!&lt;/p&gt;
+
+&lt;p&gt;There were &lt;a href=&quot;https://alpha.app.net/smithplatts/post/28969525&quot;&gt;different errors&lt;/a&gt;, assumptions that were not documented, and other shit-fights.&lt;/p&gt;
+
+&lt;p&gt;So, I am going to document what I had to do to get it to work.&lt;/p&gt;
+
+&lt;p&gt;Firstly, some assumptions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You know how to use a command line; most of the commands here will be from the command line&lt;/li&gt;
+  &lt;li&gt;Have &lt;a href=&quot;http://tortoisesvn.net/downloads.html&quot;&gt;TortoiseSVN&lt;/a&gt; installed and ensure that you selected the &lt;abbr title=&quot;Command-Line Interface / Command Language Interpreter&quot;&gt;CLi&lt;/abbr&gt; tools as part of the install process; if you didn’t, rerun the installer and install them!&lt;/li&gt;
+  &lt;li&gt;Install &lt;a href=&quot;http://tortoisehg.bitbucket.org/&quot;&gt;TortoiseHG&lt;/a&gt; and make sure that you install the &lt;abbr title=&quot;Command-Line Interface / Command Language Interpreter&quot;&gt;CLi&lt;/abbr&gt; tools too
+    &lt;ul&gt;
+      &lt;li&gt;As an aside, TortoiseHG&lt;sup id=&quot;fnref:SourceTree&quot;&gt;&lt;a href=&quot;#fn:SourceTree&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; is pretty good :P&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;now-the-process&quot;&gt;Now, the process&lt;/h3&gt;
+
+&lt;p&gt;I needed to create a local copy/backup of my online &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; repository as the &lt;code&gt;hg convert&lt;/code&gt; process hated my checked out working copy. To do this, I had to perform the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code&gt;svnadmin create PATH_FOR_LOCAL_REPO&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;i.e.&lt;/em&gt; &lt;code&gt;svnadmin create C:\Repositories\SVN\repo&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;This creates an empty &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; repository with folder structure, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;Echo Exit 0&lt;/code&gt; &amp;gt; &lt;code&gt;PATH_OF_LOCAL_REPO\hooks\pre-revprop-change.bat&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;i.e.&lt;/em&gt; &lt;code&gt;Echo Exit 0&lt;/code&gt; &amp;gt; &lt;code&gt;C:\Repositories\SVN\repo\hooks\pre-revprop-change.bat&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;For some stupid reason, if this doesn’t exist, it borks out … if someone can explain why this is required, please let me know!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;svnsync init file:///PATH_OF_LOCAL_REPO URL_OF_REMOTE_REPO&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;i.e.&lt;/em&gt; &lt;code&gt;svnsync init file:///C:\Repositories\SVN\repo https://subversion.assembla.com/svn/repo/&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;This will initialise the [blank] local repository to replicate the remote one in full.&lt;/li&gt;
+      &lt;li&gt;Yes, the &lt;code&gt;file:///&lt;/code&gt; is required because svnsync is stoopid.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;svnsync sync file:///PATH_OF_LOCAL_REPO&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;i.e.&lt;/em&gt; &lt;code&gt;svnsync sync file:///C:\Repositories\SVN\repo&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;This will cause a full synchronisation from the remote repository to the local.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, I now have a local &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; repository that is a direct mirror of the remote one! When viewing it this way, it doesn’t seem so bad, but getting to this point took &lt;em&gt;WAY&lt;/em&gt; too long :(&lt;/p&gt;
+
+&lt;p&gt;Anyhoo, now that I have the local repository, I can convert it!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code&gt;hg --config config.svn.trunk= convert -s svn PATH_OF_LOCAL_SVN_REPO PATH_FOR_HG_REPO&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;i.e.&lt;/em&gt; &lt;code&gt;hg --config config.svn.trunk= convert -s svn C:\Repositories\SVN\repo C:\Repositories\HG\repo&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;The &lt;code&gt;--config config.svn.trunk=&lt;/code&gt; was required for my conversion as my &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; repository was not configured with the trunk, branch, etc directory structure but was more configured as standard directory tree. This option tells &lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt; to treat the root as the trunk.&lt;/li&gt;
+      &lt;li&gt;This will convert the &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; repository into a new &lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt; repository with all metadata, versions and history … but no files!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;CD PATH_OF_HG_REPO&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;i.e.&lt;/em&gt; &lt;code&gt;CD C:\Repositories\HG\repo&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;hg up&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This will make &lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt; update the repository location with all of the file data that is stored in the converted repository &lt;code&gt;.hg&lt;/code&gt; folder.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And just like that, I now have a fully mirrored &lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt; repository!!!&lt;/p&gt;
+
+&lt;p&gt;Now I need to configure TortoiseHG so that pull/push commands can default to my Bitbucket repository. Because &lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt; is a &lt;abbr title=&quot;Distributed Version Control System&quot;&gt;DVCS&lt;/abbr&gt;, there are no &lt;em&gt;working copies&lt;/em&gt; of the repository that are checked out, but instead &lt;em&gt;every&lt;/em&gt; copy is also a full repository. So, to get my local repository into Bitbucket, all I need to do is push it up.&lt;/p&gt;
+
+&lt;p&gt;Here’s one of the big kickers that got me: logon and check the Bitbucket repository URL; does it end in &lt;code&gt;.git&lt;/code&gt;? If so, delete the repository and create a new one. This caused me to piss fart around for well over an hour trying things, reading support docs, searching online, and other stuff to get working as there was no indication that the repo was not dual function. When you create the first repository when also creating your account, it will default to Git without any ability to change (at least, it did for me!). Once you create a new repository, and ensure that you specify the repository be configured for Mercurial, you can configure TortoiseHG’s pull/push defaults:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Navigate to the &lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt; repository, right-click and select &lt;em&gt;Hg Workbench&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Right-click the repository in the left-hand repository tree and select &lt;em&gt;Settings&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;When viewing the &lt;em&gt;TortoiseHg Settings&lt;/em&gt; dialog, click the &lt;em&gt;Edit File&lt;/em&gt; button near the top&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the configuration file editor dialog, add the following lines: &lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;N.B.&lt;/em&gt;&lt;/strong&gt; Change the &lt;code&gt;URL_OF_REMOTE_HG_REPO&lt;/code&gt; to the URL provided for the repository in the Bitbucket web tools; &lt;em&gt;i.e.&lt;/em&gt; &lt;code&gt;https://bitbucket.org/UserName/repo&lt;/code&gt;&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; [paths]
+ default = URL_OF_REMOTE_HG_REPO
+ default-push = URL_OF_REMOTE_HG_REPO
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Once complete, click &lt;em&gt;Save&lt;/em&gt; to the configuration file editor dialog and then click &lt;em&gt;OK&lt;/em&gt; to the &lt;em&gt;TortoiseHg Settings&lt;/em&gt; dialog&lt;/li&gt;
+  &lt;li&gt;A push should be able to be performed now and should default to the configured URL and populate the Bitbucket repository!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And just like that, the &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt; repository, including all history and whatnot, should be converted to &lt;abbr title=&quot;Mercurial&quot;&gt;HG&lt;/abbr&gt; and in Bitbucket.&lt;/p&gt;
+
+&lt;p&gt;It really was &lt;em&gt;that&lt;/em&gt; simple! :P&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:BitBucket-Defaults&quot;&gt;
+      &lt;p&gt;Yeah, this will be covered later as to why this was a PITA and needs to be handled by Bitbucket better! &lt;a href=&quot;#fnref:BitBucket-Defaults&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:SourceTree&quot;&gt;
+      &lt;p&gt;[&lt;em&gt;Update: 13 May 2015&lt;/em&gt;] Since writing this post, I have since been using &lt;a href=&quot;https://www.atlassian.com/&quot;&gt;Atlassians&lt;/a&gt; &lt;a href=&quot;https://www.sourcetreeapp.com&quot;&gt;SourceTree&lt;/a&gt;. It is a Git and HG GUI-based application which, so far, has been the best I can find! &lt;a href=&quot;#fnref:SourceTree&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 23 Apr 2014 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2014/04/converting-svn-repo-to-hg/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2014/04/converting-svn-repo-to-hg/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Method Load Order for a .NET Outlook Addin</title>
+        <description>&lt;p&gt;I have been creating a .NET Outlook addin lately&lt;sup id=&quot;fnref:WLB&quot;&gt;&lt;a href=&quot;#fn:WLB&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and it has been an incredible learning journey. I have had to support 3 generations of Outlook, using the base bottom COM feature/API set (oldest supported; 2007), and have still had to stay within the speed requirements of the latest supported (2013) :-/&lt;/p&gt;
+
+&lt;p&gt;One thing that perplexed me was how I could hook in, early enough, to the addin load/startup process to subscribe to the &lt;code&gt;AppDomain.UnHandledException&lt;/code&gt; and &lt;code&gt;Application.ThreadException&lt;/code&gt; event handlers so that I can log exceptions. This is desired because Outlook is so damned efficient that it decides to &lt;abbr title=&quot;disable&quot;&gt;kill&lt;/abbr&gt; an addin as soon as it exhibits signs of &lt;em&gt;exception&lt;/em&gt;al behaviour.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-hunt&quot;&gt;The Hunt&lt;/h3&gt;
+
+&lt;p&gt;So, after looking around, I found nothing! I could not find a single site that outlined how the base method invocations are called and in what order :-(&lt;/p&gt;
+
+&lt;p&gt;Never fear, however, because I have &lt;code&gt;Debug.WriteLine()&lt;/code&gt; and an &lt;strong&gt;&lt;em&gt;Output&lt;/em&gt;&lt;/strong&gt; window! &lt;br /&gt;
+So, this is the method invocation of my addin&lt;sup id=&quot;fnref:CSharp&quot;&gt;&lt;a href=&quot;#fn:CSharp&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:Classes&quot;&gt;&lt;a href=&quot;#fn:Classes&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code&gt;AddInName(factory, serviceProvidor)&lt;/code&gt; - your addin’s primary constructor&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;Initialize()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;InitializeCachedData()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;InitializeControls()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;InitializeComponents()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;InitializeData()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;InitializeDataBindings()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;BeginInitialization()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;BindToData()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;EndInitialization()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;FinishInitialization()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;OnStartup()&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When I see it laid out like this, it’s kinda logical haha &lt;br /&gt;
+There were other methods in the base class, but at addin load/startup they were not called; so I did not investigate further as this served my purpose&lt;sup id=&quot;fnref:Know-More&quot;&gt;&lt;a href=&quot;#fn:Know-More&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-hunts-rewards&quot;&gt;The Hunt’s Rewards&lt;/h3&gt;
+
+&lt;p&gt;So after all that, it turns out that all I have is some trophies to hang on the wall&lt;sup id=&quot;fnref:Trophies&quot;&gt;&lt;a href=&quot;#fn:Trophies&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; instead of a nice dinner for the family&lt;sup id=&quot;fnref:Dinner&quot;&gt;&lt;a href=&quot;#fn:Dinner&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;What I have discovered is that the best practices for VSTO addin’s is to use &lt;strong&gt;&lt;em&gt;lots&lt;/em&gt;&lt;/strong&gt; of &lt;code&gt;try { } catch { }&lt;/code&gt; blocks around all executed code :-/&lt;/p&gt;
+
+&lt;p&gt;It is still accepted to add the desired &lt;code&gt;UnHandledException&lt;/code&gt; (and &lt;code&gt;ThreadException&lt;/code&gt;&lt;sup id=&quot;fnref:Exception-Namespace&quot;&gt;&lt;a href=&quot;#fn:Exception-Namespace&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;) catch/es, but you shouldn’t rely on them alone. What I have done is create an &lt;code&gt;internal static void UnHandledException(...)&lt;/code&gt; method that can be called from anywhere and log the details. It does a &lt;code&gt;throw&lt;/code&gt; at the end so that the addin gets disabled by Outlook, as it should.&lt;/p&gt;
+
+&lt;p&gt;All this just to get logging so that I could identify what was causing an exception on that damn unsupported OS … which turned out to be in vain! I forgot that I had updated the addin to .NET 4.5 for a new feature of which I had created and added, but the unsupported OS that was having the exception only supports up to .NET 4. Yes, I am that daft! haha&lt;/p&gt;
+
+&lt;p&gt;Alas, the journey and experience was worth it; I hope you may gain some benefit from my playing :-D&lt;/p&gt;
+
+&lt;p&gt;Happy coding!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:WLB&quot;&gt;
+      &lt;p&gt;Mainly for fun, and in my own time … however it does have a work purpose ;-P &lt;a href=&quot;#fnref:WLB&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:CSharp&quot;&gt;
+      &lt;p&gt;As you may have noticed, I am a C# developer. I can, and do (because I have to), develop in VB.NET, but C# is my playground and I love it! &lt;a href=&quot;#fnref:CSharp&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Classes&quot;&gt;
+      &lt;p&gt;These method names appear in &lt;code&gt;AddInName.Designer.cs&lt;/code&gt; within the base &lt;code&gt;AddInName&lt;/code&gt; class; although there are other classes in that file, they did not appear to load on startup for my addin. Your mileage may vary. &lt;a href=&quot;#fnref:Classes&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Know-More&quot;&gt;
+      &lt;p&gt;If you do more investigation, I would love to hear about your results! &lt;a href=&quot;#fnref:Know-More&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Trophies&quot;&gt;
+      &lt;p&gt;A list on a blog of what runs and in what order :/ &lt;a href=&quot;#fnref:Trophies&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Dinner&quot;&gt;
+      &lt;p&gt;An identified entry point for an &lt;code&gt;AppDomain.UnHandledException&lt;/code&gt; and/or an &lt;code&gt;Application.ThreadException&lt;/code&gt; &lt;a href=&quot;#fnref:Dinner&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Exception-Namespace&quot;&gt;
+      &lt;p&gt;You will need to specify the full namespace path to &lt;code&gt;System.Windows.Forms.Application&lt;/code&gt; as the default &lt;code&gt;Application&lt;/code&gt; reference will resolve to &lt;code&gt;Microsoft.Office.Interop.Outlook&lt;/code&gt; which doesn’t have a &lt;code&gt;ThreadException&lt;/code&gt; event to subscribe to. &lt;a href=&quot;#fnref:Exception-Namespace&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
+        <link>http://smithplatts.github.io/2014/03/method-load-order-for-an-outlook-addin/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2014/03/method-load-order-for-an-outlook-addin/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Desktop UI Testing with LINQPad</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;This is a post that I originally wrote on the Microsoft Development Team’s &lt;strong&gt;Brain Dump&lt;/strong&gt; blog at work the other day, and thought I’d share it with my non-work viewers too&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;So, it turns out that you can test WinFroms (and WPF) UI controls from within &lt;a href=&quot;http://linqpad.net&quot;&gt;LINQPad&lt;/a&gt;!&lt;sup id=&quot;fnref:Discovery&quot;&gt;&lt;a href=&quot;#fn:Discovery&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;First save and build your project so that you have an/the assembly (&lt;code&gt;*.exe&lt;/code&gt;, &lt;code&gt;*.dll&lt;/code&gt;). Once you have a build, fire up LINQPad and right click on the query tab and select &lt;strong&gt;&lt;em&gt;Advanced Properties&lt;/em&gt;&lt;/strong&gt;. On the &lt;em&gt;Additional References&lt;/em&gt; tab select &lt;strong&gt;&lt;em&gt;Add&lt;/em&gt;&lt;/strong&gt; and then &lt;strong&gt;&lt;em&gt;Browse&lt;/em&gt;&lt;/strong&gt;. Find the assembly that you did a build of and click &lt;strong&gt;&lt;em&gt;OK&lt;/em&gt;&lt;/strong&gt;; add any other necessary assemblies, i.e. &lt;code&gt;System.PresentationFramework.dll&lt;/code&gt;, &lt;code&gt;System.Windows.Forms.dll&lt;/code&gt;, &lt;code&gt;System.Xaml.dll&lt;/code&gt;, &lt;em&gt;etc&lt;/em&gt;. Once you have all of your assemblies added, switch to the &lt;em&gt;Additional Namespace Imports&lt;/em&gt; tab and click &lt;strong&gt;&lt;em&gt;Pick from assemblies&lt;/em&gt;&lt;/strong&gt; and select the appropriate namespaces from all the assemblies that you need; this is what will give you &lt;strong&gt;IntelliSense&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once you have done the above, you can close the &lt;strong&gt;&lt;em&gt;Advanced Properties&lt;/em&gt;&lt;/strong&gt; window and change the &lt;em&gt;Language&lt;/em&gt; to &lt;strong&gt;&lt;em&gt;C# Program&lt;/em&gt;&lt;/strong&gt; (or &lt;strong&gt;&lt;em&gt;VB Program&lt;/em&gt;&lt;/strong&gt; … if you like pain ;P). Now you can create a new instance&lt;sup id=&quot;fnref:CStor-Note&quot;&gt;&lt;a href=&quot;#fn:CStor-Note&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; of your WinForms/WPF window and test&lt;sup id=&quot;fnref:Taskbar-Note&quot;&gt;&lt;a href=&quot;#fn:Taskbar-Note&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; out the UI without executing your app! You could even use LINQPad as a way of doing some Unit Tests or some such if you were really inclined …&lt;/p&gt;
+
+&lt;p&gt;Happy testing and debugging!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:Discovery&quot;&gt;
+      &lt;p&gt;I stumbled across &lt;a href=&quot;http://www.csharpbydesign.com/2009/07/linqbugging---using-linqpad-for-winforms-testing.html&quot;&gt;this post&lt;/a&gt; by Matthew MacSuga which describes this awesome feature; I have however documented my method of testing WinForms UI and confirming WPF support &lt;a href=&quot;#fnref:Discovery&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:CStor-Note&quot;&gt;
+      &lt;p&gt;Beware class/constructor access; if you have your class, constructor/s or other methods set to internal instead of public, you will not be able to create a new instance of your UI :( &lt;a href=&quot;#fnref:CStor-Note&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Taskbar-Note&quot;&gt;
+      &lt;p&gt;Make sure that you set &lt;code&gt;.ShowInTaskbar = true&lt;/code&gt; to ensure that you have a hook to kill the window if something goes wrong; especially if you are using &lt;code&gt;.ShowDialog()&lt;/code&gt; to display it &lt;a href=&quot;#fnref:Taskbar-Note&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 22 Feb 2014 00:00:00 +0000</pubDate>
+        <link>http://smithplatts.github.io/2014/02/desktop-ui-testing-with-linqpad/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2014/02/desktop-ui-testing-with-linqpad/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Coffee Buzz 1.1</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/coffeebuzz/&quot;&gt;Coffee Buzz&lt;/a&gt; 1.1 is here! &lt;br /&gt;
+It has been a fun holiday working on some different personal projects, and this was one of them :)&lt;/p&gt;
+
+&lt;p&gt;Since initially creating &lt;strong&gt;Coffee Buzz&lt;/strong&gt;, I have learnt a lot [more] about &lt;code&gt;Object Orientated Programming&lt;/code&gt; and the language &lt;code&gt;C#&lt;/code&gt;; so for this release there is quite a lot of refactoring, performance improvements, better memory management and a few little features/changes.&lt;/p&gt;
+
+&lt;p&gt;The main features additions/changes are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added the ability to disable balloon tips
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;Click&lt;/code&gt; the Icon to access the new setting&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Added menu header to easily identify current version&lt;/li&gt;
+  &lt;li&gt;Added menu aware click-behaviour of the &lt;em&gt;Notification Tray&lt;/em&gt; icon left-click&lt;/li&gt;
+  &lt;li&gt;Altered left-click behaviour when clicking the &lt;em&gt;Notification Tray&lt;/em&gt; icon to allow for double click before presenting the menu; right-click behaviour unchanged&lt;/li&gt;
+  &lt;li&gt;Added error log saving and notification for easier support in the rare case of issue&lt;/li&gt;
+  &lt;li&gt;Rearranged menu item placement for the addition of the header and moved the &lt;strong&gt;&lt;em&gt;About&lt;/em&gt;&lt;/strong&gt; menu item to above &lt;strong&gt;&lt;em&gt;Quit&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can get the new version &lt;a href=&quot;/coffeebuzz/#download&quot;&gt;here&lt;/a&gt;; and of course, any issues please don’t hesitate to get in touch :)&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Jan 2014 00:00:00 +0000</pubDate>
+        <link>http://smithplatts.github.io/2014/01/coffee-buzz-1-1/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2014/01/coffee-buzz-1-1/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>EnumInstalledApp</title>
+        <description>&lt;p&gt;Ever wanted to quickly find out what application is listed in the registry’s Uninstall key? Wanted to know what sub-key name it has and what version is recorded? &lt;br /&gt;&lt;br /&gt;
+EnumInstalledApp is the &lt;abbr title=&quot;Command-Line Interface / Command Language Interpreter&quot;&gt;CLi&lt;/abbr&gt; utility for you!&lt;/p&gt;
+
+&lt;h3 id=&quot;really-what-can-it-do&quot;&gt;Really? What can it do?&lt;/h3&gt;
+
+&lt;p&gt;EnumInstalledApp queries the &lt;code&gt;HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall&lt;/code&gt; registry key for a particular keyword or full name as passed on the command line. It’s scope, by default, is to find registry sub keys whose &lt;code&gt;DisplayName&lt;/code&gt; value contains the passed keyword/s. It will list each match by sub key name, &lt;code&gt;DisplayName&lt;/code&gt; and &lt;code&gt;DisplayVersion&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;showcase center&quot;&gt;
+    &lt;a class=&quot;fancybox&quot; href=&quot;/assets/images/enuminstalledapp/enuminstalledapp_example.jpg&quot; title=&quot;EnumInstalledApp in Action!&quot;&gt;
+        &lt;img src=&quot;/assets/images/enuminstalledapp/enuminstalledapp_example.jpg&quot; alt=&quot;EnumInstalledApp in Action!&quot; width=&quot;580&quot; height=&quot;379&quot; /&gt;
+    &lt;/a&gt;&lt;br /&gt;
+    EnumInstalledApp in Action!
+&lt;/div&gt;
+
+&lt;h3 id=&quot;nice-how-much-control-do-i-have-over-the-search&quot;&gt;Nice! How much control do I have over the search?&lt;/h3&gt;
+
+&lt;p&gt;Quite a bit! In a nutshell:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Search for multiple keyword/s or full names (with spaces!)&lt;/li&gt;
+  &lt;li&gt;Perform a case sensitive search to narrow results&lt;/li&gt;
+  &lt;li&gt;Alter the search scope:
+    &lt;ul&gt;
+      &lt;li&gt;Find matches that &lt;em&gt;contain&lt;/em&gt; keyword/s&lt;/li&gt;
+      &lt;li&gt;Find matches that are &lt;em&gt;exact&lt;/em&gt;&lt;/li&gt;
+      &lt;li&gt;Find matches that &lt;em&gt;start with&lt;/em&gt; keyword/s&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;On a 64-bit machine, include the 32-bit registry within search or search 32-bit only&lt;/li&gt;
+  &lt;li&gt;Query a remote host over the network&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All of EnumInstalledApp’s &lt;abbr title=&quot;Command-Line Interface / Command Language Interpreter&quot;&gt;CLi&lt;/abbr&gt; usage options and explanations can be accessed by either running &lt;code&gt;EnumInstalledApp.exe&lt;/code&gt; from within a command prompt or by using the &lt;code&gt;-?&lt;/code&gt; argument&lt;sup id=&quot;fnref:Help-Anywhere&quot;&gt;&lt;a href=&quot;#fn:Help-Anywhere&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:Param-Easy&quot;&gt;&lt;a href=&quot;#fn:Param-Easy&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-computer-system-is-it-designed-for&quot;&gt;What computer system is it designed for?&lt;/h3&gt;
+
+&lt;p&gt;EnumInstalledApp has been built for Microsoft Windows. It has been designed for and tested against Windows XP (all versions), Windows 7 (all versions) and Windows 8.&lt;em&gt;x&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The .NET framework version 4 is required to be able to run EnumInstalledApp. Windows 8.&lt;em&gt;x&lt;/em&gt; already includes a newer version of the .NET framework, but if you are intending to run this tool on any other edition of Windows you will first need to install the .NET 4 framework which can be &lt;a href=&quot;http://www.microsoft.com/en-us/download/details.aspx?id=17851&quot; title=&quot;Microsoft .NET Framework 4 (Web Installer&quot;&gt;found here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;free&quot;&gt;Free?&lt;/h3&gt;
+
+&lt;p&gt;You betcha! It’s ©2013 Adam Smith-Platts; but you are free to use and distribute as you like.&lt;br /&gt;
+However, you may not sell or receive donation in any way, shape, or form.&lt;/p&gt;
+
+&lt;h3 id=&quot;awesome-where-can-i-get-it&quot;&gt;Awesome! Where can I get it?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/releases/EnumInstalledApp.zip&quot; title=&quot;Get me some EnumInstalledApp!&quot;&gt;Right here!&lt;/a&gt; Unzip and run from any location :D&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:Help-Anywhere&quot;&gt;
+      &lt;p&gt;You can specify &lt;code&gt;-?&lt;/code&gt; anywhere in the command line and the help text will be displayed &lt;a href=&quot;#fnref:Help-Anywhere&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Param-Easy&quot;&gt;
+      &lt;p&gt;EnumInstalledApp isn’t picky about CLi argument prefix’; you can use &lt;code&gt;/&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt; or even use nothing and it’ll happily work away &lt;a href=&quot;#fnref:Param-Easy&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 23 Dec 2013 00:00:00 +0000</pubDate>
+        <link>http://smithplatts.github.io/2013/12/enuminstalledapp/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2013/12/enuminstalledapp/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Praying the Rosary</title>
+        <description>&lt;p&gt;&lt;em&gt;I start the prayer&lt;/em&gt;; &lt;br /&gt;
+already a feeling of disconnect …&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I pray the first decade&lt;/em&gt;; &lt;br /&gt;
+why this feeling of hollowness to my words and intentions?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I pray a second decade&lt;/em&gt;; &lt;br /&gt;
+for you God, and for myself, I try to mean every word I say …&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I pray the third decade&lt;/em&gt;; &lt;br /&gt;
+the yawning starts, I struggle to focus …&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I pray the fourth decade&lt;/em&gt;; &lt;br /&gt;
+God, give me strength to give my all to you …&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I pray the fifth decade&lt;/em&gt;; &lt;br /&gt;
+I love you Lord, I really do!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+        <link>http://smithplatts.github.io/2013/12/praying-the-rosary/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2013/12/praying-the-rosary/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Where am I at?</title>
+        <description>&lt;p&gt;Howdy blog followers and visitors! (if I still any of either haha) &lt;br /&gt;
+Where am I at? What am I doing?&lt;/p&gt;
+
+&lt;p&gt;I have been working incredibly hard as of late. My job has recently taken a few interesting turns where I am developing more and being involved in some more highly visible projects&lt;sup id=&quot;fnref:Work-Disclaimer&quot;&gt;&lt;a href=&quot;#fn:Work-Disclaimer&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;; which of course is incredibly enjoyable, humbling and fun.&lt;/p&gt;
+
+&lt;p&gt;I love developing/programming. As soon as I open my &lt;a href=&quot;http://en.wikipedia.org/wiki/Integrated_development_environment&quot; title=&quot;Wikipedia Definition of IDE&quot;&gt;IDE&lt;/a&gt;, I am engrossed in a world that is &lt;em&gt;mine&lt;/em&gt; to create, massage and grow; it is an incredible feeling! I watch as my brain transfers ideas and complexities into a way for a computer to execute them and provide me with its own interpretation/s. Sometimes I realise that the way I am explaining it, the computer cannot understand and we differ on interpretation. In these instances I sometimes have to understand more the computers interpretation and yield to its expert opinion; other times I realise that my interpretation is correct and enforce my opinion. Turning written text, grammar and mathematics into a working piece of software is so incredibly rewarding and exciting!&lt;/p&gt;
+
+&lt;p&gt;There has been a lot of talk around the interwebs that more people, of all walks of life, need to learn to code; like riding a bike it is being considered an almost essential skill that, when lacking in said skill, inhibits your very being from being truly satisfied. As someone who is learning to code and is developing and releasing applications, I can see how the pure delight I feel could be shared amongst others. However, I do not see it as a life skill that everyone should be doing or learning. Do you love to draw, paint, make music, teach, interpret politics? Do that instead of learning to code. If you want to learn, do! But if it’s not for you, it’s not for you :)&lt;/p&gt;
+
+&lt;p&gt;There has also been comparisons drawn about coding as an art form. I honestly do feel that when I create a piece of code or software, that I am creating art; in my eyes. When I open a page of code, and look at the way it all integrates, I get inspired to learn more and write more of my own. I can see, however, that to others it may not seem that way.&lt;/p&gt;
+
+&lt;p&gt;It all comes down to what inspires &lt;em&gt;you&lt;/em&gt; to do what you love. I feel like I create a type of art, and that’s ok.&lt;/p&gt;
+
+&lt;p&gt;Sadly, I cannot code all the time; there are other priorities. Some of the new involvements at work are requiring me to exercise other aspects of my skill-set to help create a truly novel and unique high availability compute environment for scientists and researchers to achieve results faster. I am learning about different aspects of compute, HDD storage and networking protocols. It is utterly fascinating and rewarding to be involved in such aspects of grandeur!&lt;/p&gt;
+
+&lt;p&gt;However, I do feel a longing to be immersing myself deeper in code and development; we will see what the future holds I think. Maybe if I was to pursue a more active professional programming role, I would enjoy coding less in my own time.&lt;/p&gt;
+
+&lt;p&gt;It’s all about balance and I am loving this journey!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:Work-Disclaimer&quot;&gt;
+      &lt;p&gt;Due to my agreements with my employer, I am able to say only basic and somewhat vague things about my primary work; it is much larger and very impressive compared to what I can explain. &lt;a href=&quot;#fnref:Work-Disclaimer&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 23 Nov 2013 00:00:00 +0000</pubDate>
+        <link>http://smithplatts.github.io/2013/11/where-am-i-at/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2013/11/where-am-i-at/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Responsibilities</title>
+        <description>&lt;p&gt;I hate starting things and then not finishing them.&lt;br /&gt;
+Some things work great when treated as an always incomplete project; but, for the most part, I hate the practice.&lt;/p&gt;
+
+&lt;p&gt;I managed to not only start, but complete two personal projects: &lt;a href=&quot;/coffeebuzz/&quot; title=&quot;Coffee Buzz – Give Your Computer a Buzz!&quot;&gt;Coffee Buzz&lt;/a&gt; and &lt;a href=&quot;/cli-tools/promotenta/&quot; title=&quot;PromoteNTA – Promote a Notification Tray Application&quot;&gt;PromoteNTA&lt;/a&gt;. This was an amazing feeling to complete and &lt;em&gt;release&lt;/em&gt; them!&lt;/p&gt;
+
+&lt;p&gt;When developing them, I signed up for an account with &lt;a href=&quot;http://www.assembla.com/&quot;&gt;Assembla&lt;/a&gt; and created a private &lt;abbr title=&quot;Subversion&quot;&gt;SVN&lt;/abbr&gt;&lt;sup id=&quot;fnref:SVN&quot;&gt;&lt;a href=&quot;#fn:SVN&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; repository so that I can commit to and track changes and progress. I was using the commit messages to keep track of items to-do; sadly this wasn’t ideal.&lt;/p&gt;
+
+&lt;p&gt;I have recently upgraded the account to include ticketing features. This now allows me to create tasks against the different little projects that I am committing so that I can easily see what is left to do and how close to release I am.&lt;/p&gt;
+
+&lt;p&gt;With these new features in Assembla active, I have embarked on:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a refinement release of &lt;a href=&quot;/coffeebuzz/&quot; title=&quot;Coffee Buzz – Give Your Computer a Buzz!&quot;&gt;&lt;code&gt;Coffee Buzz&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;a new &lt;abbr title=&quot;Command-Line Interface / Command Language Interpreter&quot;&gt;CLi&lt;/abbr&gt; tool called &lt;a href=&quot;/cli-tools/enuminstalledapp/&quot; title=&quot;EnumInstalledApp - Query the Registry Uninstall Key&quot;&gt;&lt;code&gt;EnumInstalledApp&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;finally&lt;/em&gt; releasing my &lt;code&gt;Codeless Language Module&lt;/code&gt; for &lt;a href=&quot;http://en.wikipedia.org/wiki/KiXtart&quot; title=&quot;Wikipedia Definition for KiXtart&quot;&gt;KiXtart&lt;/a&gt; support in &lt;a href=&quot;http://www.barebones.com/products/bbedit/&quot; title=&quot;Product page for BBEdit&quot;&gt;BBEdit&lt;/a&gt;/&lt;a href=&quot;http://www.barebones.com/products/textwrangler/&quot; title=&quot;Product page for TextWrangler&quot;&gt;TextWrangler&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hopefully, by setting up the ticketing support, this blog post and other factors, it may help keep me on track and complete these projects!&lt;/p&gt;
+
+&lt;p&gt;Time will tell … ;P&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:SVN&quot;&gt;
+      &lt;p&gt;There are many different types of version control; I use &lt;a href=&quot;http://en.wikipedia.org/wiki/Apache_Subversion&quot; title=&quot;Wikipedia Definition for SVN&quot;&gt;SVN&lt;/a&gt; as I like the centralized model and find it very powerful. I have also been looking into &lt;a href=&quot;http://en.wikipedia.org/wiki/Mercurial&quot; title=&quot;Wikipedia Definition for Mercurial&quot;&gt;Mercurial&lt;/a&gt; but haven’t set aside the time to tinker yet. &lt;a href=&quot;#fnref:SVN&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 23 Nov 2013 00:00:00 +0000</pubDate>
+        <link>http://smithplatts.github.io/2013/11/responsibilities/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2013/11/responsibilities/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>PromoteNTA – Promote a Notification Tray Application</title>
+        <description>&lt;p&gt;Well, here it is, my second application!!!&lt;/p&gt;
+
+&lt;div class=&quot;showcase center no-border&quot;&gt;
+    &lt;a class=&quot;fancybox&quot; href=&quot;/assets/images/promotenta/promotenta.png&quot; title=&quot;PromoteNTA – Promote a Notification Tray Application&quot;&gt; 
+        &lt;img src=&quot;/assets/images/promotenta/promotenta.png&quot; alt=&quot;PromoteNTA-Logo&quot; title=&quot;PromoteNTA – Promote a Notification Tray Application&quot; width=&quot;150&quot; /&gt;
+    &lt;/a&gt;&lt;br /&gt;
+    PromoteNTA is little command line utility that can be used to “promote” a Notification Tray application state
+&lt;/div&gt;
+
+&lt;p&gt;If you have the Windows (XP/7/8) Notification Tray (the one in the bottom right corner) configured with default settings, it will hide any application that isn’t active; i.e. telling (notifying) you about something. There are two other states an application can be promoted to, &lt;em&gt;always hide&lt;/em&gt; or &lt;em&gt;always show&lt;/em&gt;. Windows doesn’t provide a way to programatically “promote” the state of an application tray but instead only allows a user to set this using the User Interface.&lt;/p&gt;
+
+&lt;p&gt;PromoteNTA is a way for software developers or system admins to centrally promote an application state for any/all user/s.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in finding out more, &lt;a href=&quot;/cli-tools/promotenta/&quot; title=&quot;PromoteNTA – Promote a Notification Tray Application&quot;&gt;click through here&lt;/a&gt; to get access to the utility and the &lt;a href=&quot;/cli-tools/promotenta/devresource/&quot; title=&quot;Assembly.PromotNTA – Promote a Notification Tray Application [Developer Resource]&quot;&gt;developer resource&lt;/a&gt;!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 03 Jun 2013 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2013/06/promotenta/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2013/06/promotenta/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Coffee Buzz</title>
+        <description>&lt;p&gt;What the hell is Coffee Buzz I hear you say? What’s with the &lt;em&gt;extra&lt;/em&gt; punarific cheesiness?&lt;br /&gt;
+Well the truth is that I am now a Software Developer!!! Coffee Buzz is my first full application! :D&lt;/p&gt;
+
+&lt;h3 id=&quot;so-what-is-it&quot;&gt;So what is it?&lt;/h3&gt;
+
+&lt;div class=&quot;showcase&quot;&gt;
+    &lt;a class=&quot;fancybox&quot; href=&quot;/assets/images/coffeebuzz/coffeebuzz_01.jpg&quot; title=&quot;Coffee Buzz in the Notification Tray&quot;&gt;
+        &lt;img src=&quot;/assets/images/coffeebuzz/coffeebuzz_01.jpg?w=300&quot; alt=&quot;Coffee Buzz in the Notification Tray&quot; width=&quot;300&quot; height=&quot;43&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Coffee Buzz is a little Notification Tray application that can be used to prevent your computer from going to sleep. When Coffee Buzz kicks in and gives your computer a buzz, the screensaver and sleep modes will be [temporarily] disabled so that you can work without fear of your machine going to screensaver while watching a movie or showing an important presentation in the board room or at Uni.&lt;/p&gt;
+
+&lt;p&gt;The premise behind Coffee Buzz is that not everyone can turn off there screensaver or disable sleep mode due to restrictions on a work or Uni computer, and not everyone either knows how to or can be bothered turning these settings off by themselves. On top of that, the screensaver and sleep modes are very important; they increase the life of your monitors and allow you to reduce your environmental footprint.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-how-does-it-work&quot;&gt;So how does it work?&lt;/h3&gt;
+
+&lt;p&gt;Coffee Buzz uses built in components of the Operating System to “pause” the timers that are used to activate the screensaver or sleep mode. Coffee Buzz does not “hack” your computer by sending a ghost like keyboard key or move your mouse the 1/1000th of millimetre. No. Coffee Buzz uses complete native code of the Operating System; the same code that other parts of the Operating System uses!&lt;/p&gt;
+
+&lt;p&gt;Pretty cool huh :D&lt;/p&gt;
+
+&lt;h3 id=&quot;so-if-i-use-coffee-buzz-will-my-computer-never-show-the-screensaver-or-go-to-sleep-again&quot;&gt;So, if I use Coffee Buzz, will my computer never show the screensaver or go to sleep again?&lt;/h3&gt;
+
+&lt;p&gt;Only while Coffee Buzz is giving the computer a &lt;em&gt;Buzz!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The icon that shows in the Notification Tray, when activated, will look like a full cup of coffee. When you declare &lt;em&gt;Buzzed Out!&lt;/em&gt;, it means that you want Coffee Buzz to return to the normal behaviour that it had before you ran Coffee Buzz.&lt;/p&gt;
+
+&lt;p&gt;There are also options to only give the computer a temporary &lt;em&gt;Buzz!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Only want the screensaver to remain inactivate or stay awake for 30 minutes; no problem!&lt;/p&gt;
+
+&lt;div class=&quot;showcase&quot;&gt;
+    &lt;a class=&quot;fancybox&quot; href=&quot;/assets/images/coffeebuzz/coffeebuzz_02.jpg&quot; title=&quot;Coffee Buzz Options&quot;&gt;
+        &lt;img src=&quot;/assets/images/coffeebuzz/coffeebuzz_02.jpg&quot; alt=&quot;Coffee Buzz Options&quot; width=&quot;235&quot; height=&quot;239&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If you quit Coffee Buzz while it is giving your computer a &lt;em&gt;Buzz!&lt;/em&gt;, it will return the computer to normal operating behaviour and will not leave it with the timers paused.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-i-need-to-be-an-administrator-of-the-computer&quot;&gt;Do I need to be an administrator of the computer?&lt;/h3&gt;
+
+&lt;p&gt;No. Coffee Buzz has been designed to be completely functional by any user of any computer. It will also run when the computer starts and you are logged in if you like.&lt;/p&gt;
+
+&lt;h3 id=&quot;are-there-any-issues-with-using-coffee-buzz-on-my-work-computer&quot;&gt;Are there any issues with using Coffee Buzz on my work computer?&lt;/h3&gt;
+
+&lt;p&gt;If you are asking if I allow it, well I do.&lt;br /&gt;
+If you are asking if using Coffee Buzz at work will get you in trouble, maybe.&lt;/p&gt;
+
+&lt;p&gt;Most work places have what is called an &lt;em&gt;Acceptable Use Policy&lt;/em&gt; (names may vary, but the purpose is the same) which you would have had to sign when commencing employment. Often these policy state that circumnavigating the screensaver and sleep modes is prohibited. It is up to you to determine if your workplace has one of these policies and whether you are comfortable in using Coffee Buzz should it mean that you could get in trouble. I take zero (0) responsibility if you get in trouble with your employer/IT department.&lt;/p&gt;
+
+&lt;p&gt;In saying this, Coffee Buzz does not install anything. It does not do anything that would make an Anti-Virus system panic. It does not contact the internet in any way.&lt;br /&gt;
+So if you do use this application, the likely hood that you would get caught is VERY minimal.&lt;/p&gt;
+
+&lt;h3 id=&quot;i-didnt-read-any-of-that-as-i-just-want-a-feature-list-do-you-have-one&quot;&gt;I didn’t read any of that as I just want a feature list, do you have one?&lt;/h3&gt;
+
+&lt;p&gt;Right here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stops screensaver or sleep mode from activating&lt;/li&gt;
+  &lt;li&gt;Double click icon in task tray to either activate or deactivate Coffee Buzz&lt;/li&gt;
+  &lt;li&gt;If you lock the computer, Coffee Buzz will deactivate; preserving your precious computer display life&lt;/li&gt;
+  &lt;li&gt;Predefined temporary time limits to keep computer awake for; 10, 20, 30 or 60 minutes&lt;/li&gt;
+  &lt;li&gt;Command line options for advanced users&lt;/li&gt;
+  &lt;li&gt;Automatic execution on logon&lt;/li&gt;
+  &lt;li&gt;Supports Windows XP, Windows 7 and Windows 8.&lt;em&gt;x&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;this-is-awesome-does-it-cost-anything&quot;&gt;This is awesome! Does it cost anything?!&lt;/h3&gt;
+
+&lt;p&gt;No way!!! Coffee Buzz is completely free to download, use and share. &lt;br /&gt;
+It is ©2013 Adam Smith-Platts, and as such I ask that you do not sell it in any way.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-did-you-create-it&quot;&gt;Why did you create it?&lt;/h3&gt;
+
+&lt;p&gt;My Dad asked if there was a way that he could prevent his screensaver from kicking in at work. His work has a timeout of 10 minutes, and if you needed to go to a book shelf to reference something and come back, the computer would be locked. His work computers are also locked down and he cannot change the screensaver.&lt;/p&gt;
+
+&lt;p&gt;So after looking around for a solution for him, I decided to create one!&lt;/p&gt;
+
+&lt;h3 id=&quot;what-computer-system-is-it-designed-for&quot;&gt;What computer system is it designed for?&lt;/h3&gt;
+
+&lt;p&gt;Coffee Buzz is designed for Microsoft Windows. It has been tested and designed for Windows XP (all versions), Windows 7 (all versions) and Windows 8.&lt;em&gt;x&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The .NET framework version 3.5 is required to be able to use Coffee Buzz, which comes stock on Windows Vista/7. On Windows XP you will &lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkID=229190&quot; title=&quot;Get .NET Framework 3.5&quot;&gt;need to install if not already done so&lt;/a&gt;. On Windows 8.&lt;em&gt;x&lt;/em&gt;, so long as the &lt;code&gt;CoffeeBuzz.exe.config&lt;/code&gt; (included in the download) is present in the same directory as Coffee Buzz, you do not need to &lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkId=236202&quot; title=&quot;Installing the .NET Framework 3.5 on Windows 8.x&quot;&gt;install version 3.5 of the .NET framework&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you are wanting an application like this for Mac OS X, I recommend you check out Caffeine by Lighthead (&lt;a href=&quot;http://lightheadsw.com/caffeine/&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://itunes.apple.com/au/app/caffeine/id411246225?mt=12&quot;&gt;Mac App Store&lt;/a&gt;). They have a great little app that was actually what inspired me to create this one (that and the fact that all Windows alternatives used mouse and keyboard hacks :/)&lt;/p&gt;
+
+&lt;h3 id=&quot;what-if-i-have-a-problem-with-it-or-have-a-suggestion&quot;&gt;What if I have a problem with it or have a suggestion?&lt;/h3&gt;
+
+&lt;p&gt;Just drop me a line! I cannot guarantee that I will respond straight away, as this is a hobby and I have a very busy work and home life, but I will respond. I am proud of what I create and I want it to work for you.&lt;/p&gt;
+
+&lt;h3 id=&quot;right-im-sold-where-can-i-get-it&quot;&gt;Right, I’m sold, where can I get it?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/releases/CoffeeBuzz.zip&quot;&gt;Click here to download &lt;strong&gt;Coffee Buzz&lt;/strong&gt;&lt;/a&gt;. It will download as a zip file, which you can open and copy the program to USB stick or external hard drive. Just double click it on your computer and it will run.&lt;/p&gt;
+
+&lt;p&gt;If you already have Coffee Buzz but want to be sure that you have the latest version, please check out the &lt;a href=&quot;/coffeebuzz/changelog/&quot;&gt;change log/release notes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 May 2013 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2013/05/coffeebuzz/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2013/05/coffeebuzz/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Recent 9 to 5 Routine</title>
+        <description>&lt;p&gt;Work has been amazingly flat chat! We have had so much going on in our little team of engineers/designers. &lt;br /&gt;
+We recently had a [kinda] spur of the moment project kick-in in February with … a very unique individual as our Project Manager. He was a very different personality, and saying that I clashed with him is possibly the biggest understatement that could be made. In the first week he stole my computer chair. Yeah, that’s right, my fucking computer chair. His reason? The chair he got wasn’t comfortable enough and because I’m young, my back can handle it … &lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;WRONG&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;I put him in his place by enlightening him to the fact that I have actually had a minor lower back operation [quite] a few years back, and that the chair I had was one that was suited to me and provided little discomfort. So what did he do? He emailed one of the senior managers saying that due to my “bad back” he gave me his chair and was now using a bad one and was it ok to get a new one?&lt;/p&gt;
+
+&lt;p&gt;Yep. That’s what he did.&lt;/p&gt;
+
+&lt;p&gt;I responded to the manager correcting this mis-information that he had nicked my chair and been found out and wanted a new one.&lt;/p&gt;
+
+&lt;p&gt;Not what I would call a great start to a project …&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The project should really have been two (maybe even three) separate ones. But the three components were deemed small enough to encompass together.&lt;/p&gt;
+
+&lt;p&gt;Cause, you know:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rolling out HDD encryption to the entire organisation (it’s a national, and partly international, organisation … );&lt;/li&gt;
+  &lt;li&gt;designing, developing and rolling out a new OS upgrade system; &lt;br /&gt; 
+and&lt;/li&gt;
+  &lt;li&gt;testing and developing a new central software distribution system while redesigning the custom built web-based front end;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;… are all reasonably small tasks.&lt;/p&gt;
+
+&lt;p&gt;This was to be acheived by a team of one Project Manager, a Business Analyst, 1 web engineer, 2 Windows system/network engineers and a tester …&lt;/p&gt;
+
+&lt;p&gt;But heck, one of my colleges (the other Windows system/network engineer) and I just shrugged and said: “when do you want this done by?”&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Quick side note&lt;/em&gt; The Windows engineer mentioned is a colleague and team mate at work. When I started, it was identified that him and I would be working together a fair bit. He is what I like to describe as a walking tech encyclopaedia … his knowledge is INSANE!!!&lt;/p&gt;
+
+&lt;p&gt;Anyway, him and I started off to an interesting start. I believe he was unsure of my tech abilities, and isn’t exactly a “glass is half full” kinda guy. Things were rocky there for some time. To the point that at times I had to chat to my line manager about certain incidents.&lt;/p&gt;
+
+&lt;p&gt;But, it seems that over the last 7 - 8 months, things have changed. It was almost a sudden change. He started treating me with a fair amount of respect, and also started requesting my time to discuss things and get my opinion on different matters. Not only that, but he listens to my opinions and at times has agreed that mine made more sense and we go in that direction.&lt;/p&gt;
+
+&lt;p&gt;It has been quite the change and has made my already amazing job even better! :-D&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Well, after 5 months gunning it with my colleagues and the &lt;a href=&quot;http://dictionary.reference.com/browse/putz&quot; title=&quot;Define &amp;quot;Putz&amp;quot;&quot;&gt;putz&lt;/a&gt; of a PM, we delivered on what was required for the project.&lt;/p&gt;
+
+&lt;p&gt;Encryption is being rolled out with &amp;lt;1% noticeable impact to users and the Windows OS upgrade process (rather complicated but &lt;em&gt;very&lt;/em&gt; successful) has been such a hit, and we have identified that the process has potentially saved thousands of dollars for the organisation. The central software distribution system has also made a good impact where was necessary and will be continued and developed into an amazingly powerful system.&lt;/p&gt;
+
+&lt;p&gt;Since the project has ended, things haven’t calmed down at all. Turns out we are losing a team member. The stuff he was working on has been picked up by two other team mates, but it has also meant that I have had start some solo flying on the Windows front. Seeing as it is the major OS used in the organisation with over 7 000 machine across the country … it’s a big job.&lt;/p&gt;
+
+&lt;p&gt;But despite the busyness, I have solved some intriguing issues that haven’t been touched in quite some time due to the complexity of the tasks involved. I have also revised and cleaned up quite a few of the systems that we use which will make for less busy later on.&lt;/p&gt;
+
+&lt;p&gt;But … this brings me to this last week; specifically the last day of said week. I was going through and updating the base applications used by all the Windows systems and came across a doozy of an issue. While I was on the project, we had another employee come into the team to kinda back fill [some] of what I do on a day to day basis. He updated one of these applications, &lt;a href=&quot;http://pathcopycopy.codeplex.com&quot; title=&quot;Path Copy Copy&quot;&gt;Path Copy Copy&lt;/a&gt;, which had gone from quite an old version (3.0) to a much more recent one (10.1).&lt;/p&gt;
+
+&lt;p&gt;Normally, this wouldn’t be an issue; but with this new version came a completely new configuration which my colleague obviously missed (don’t know how … but oh well). This configuration is not only completely different to previous versions, but had some great new things to setup to make the experience even better!&lt;/p&gt;
+
+&lt;p&gt;With the old version, only very few options were available; and even less could be customised. What could be customised had to be done in the Windows registry and had to be done at the user level. With the new version, not only has the default settings location completely changed (and the documentation a wee bit out of date &amp;lt;rage /&amp;gt;), but you could do a lot more to customise it. The new location for the default settings was now at the machine level (so much better!) and also had a lot of new features added. But with these new features came new defaults and these defaults conflicted with the old settings that the other employee had not even payed attention to. So not only was the program config kinda broken, the documentation around fixing it was out of date too. I did end up getting all the configs sorted and also created a new plugin for the application which will provide a great new feature to a decent and useful program.&lt;/p&gt;
+
+&lt;p&gt;But after an amazing week developing a new feature into the image release process (which really is quite awesome &lt;em&gt;*shines vanity badge*&lt;/em&gt;) it was such a shit to have to spend a good few hours getting this muck up fixed.&lt;/p&gt;
+
+&lt;p&gt;Alas, the problem is fixed and life can move on :-P&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Well; there we go. It has been some time since my last post, and it felt great! Sorry for such a long and possibly boring post, but meh. It’s my site, so&lt;/p&gt;
+
+&lt;div class=&quot;showcase center&quot;&gt;
+    &lt;a class=&quot;fancybox&quot; href=&quot;/assets/images/whatever_i_do_what_i_want.png&quot;&gt;
+        &lt;img title=&quot;Cartman&quot; src=&quot;/assets/images/whatever_i_do_what_i_want.png&quot; width=&quot;500&quot; /&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To all who were kind enough to get to this point, take care and thanks! :-D&lt;/p&gt;
+</description>
+        <pubDate>Sat, 11 Aug 2012 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2012/08/the-recent-9-to-5-routine/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2012/08/the-recent-9-to-5-routine/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Turd that WAS AppleScript</title>
+        <description>&lt;p&gt;Last week &lt;a href=&quot;/2012/03/the-turd-that-is-applescript/&quot;&gt;I posted about my initial experience&lt;/a&gt; with AppleScript and how much of a turd I found it. &lt;br /&gt;&lt;br /&gt;
+Well, it’s been a week now and I have learned heaps!!!&lt;br /&gt;
+I have also completely changed my opinion about the language …&lt;/p&gt;
+
+&lt;p&gt;My biggest problem was that I was trying to do things that aren’t common for AppleScripts target use, and my terminology was wrong. So, in this post, I want to correct a few statements that were made and offer some [hopefully] valuable User Defined Handlers (&lt;abbr title=&quot;User Defined Handler&quot;&gt;UDH&lt;/abbr&gt;) for others to use.&lt;/p&gt;
+
+&lt;p&gt;In my previous post, I was trying to check to see if an application was installed, and do something based on that. This was proving difficult as I could’t find any kind of documentation on the InterWebs (Google sucks, have you noticed?!) and was getting frustrated.&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Well, I now have a UDM that does exactly that, and does it well:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-applescript&quot; data-lang=&quot;applescript&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Check to see if an application exists&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fnAppExist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;appName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;do shell script&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;ls /Applications | grep &amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;appName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;contains&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;appName&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;appExist&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;boolean&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;error&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;appExist&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;boolean&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fnAppExist&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This is a Handler, and was my biggest problem last week. I kept thinking in the terminology of other scripting/coding languages which I have used and developed with. I kept wanting to create &lt;em&gt;functions&lt;/em&gt;. In AppleScript, functions are better known as &lt;em&gt;handlers&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The handler above sets a &lt;code&gt;try&lt;/code&gt; environment. This is vital to the success of the commands following it and I will explain that as I get to it. Next it checks to see if an application exists by running the terminal command &lt;code&gt;ls&lt;/code&gt; on the &lt;code&gt;/Applications&lt;/code&gt; directory and looking for any results that contain the text contained in the variable &lt;code&gt;appName&lt;/code&gt;. If that returns &lt;code&gt;true&lt;/code&gt;, the handler sets the variable &lt;code&gt;appExist&lt;/code&gt; to the &lt;em&gt;boolean&lt;/em&gt; value of 1. A &lt;em&gt;boolean&lt;/em&gt; value of 1 is often also synonymous to &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If the &lt;code&gt;ls&lt;/code&gt; command does not return &lt;code&gt;appName&lt;/code&gt;, under normal circumstances the whole script would error out and stop. This is where the &lt;code&gt;try&lt;/code&gt; command is so vital. If the logic errors at all, it can be caught with the &lt;code&gt;on error&lt;/code&gt; block. If the command errors out, the &lt;code&gt;on error&lt;/code&gt; will kick in and set &lt;code&gt;appExist&lt;/code&gt; to the &lt;em&gt;boolean&lt;/em&gt; value of 0. A &lt;em&gt;boolean&lt;/em&gt; value of 0 is often also synonymous to &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;When a handler ends, it returns the value/output of the last command performed.&lt;/p&gt;
+
+&lt;p&gt;Once I worked this out, that &lt;em&gt;functions&lt;/em&gt; are known as &lt;em&gt;handlers&lt;/em&gt;, I was able to create more. &lt;br /&gt;
+The following is a VERY similar handler to the above:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-applescript&quot; data-lang=&quot;applescript&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Check to see if a folder exists&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fnFldrExist&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;fldrParentPath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fldrName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;do shell script&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;ls &amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fldrParentPath&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot; | grep &amp;quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fldrName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is equal&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fldrName&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fldrExist&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;boolean&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;error&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fldrExist&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;boolean&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;fnFldrExist&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This handler checks if a folder (&lt;code&gt;fldrName&lt;/code&gt;) exists in the directory path specified by &lt;code&gt;fldrParentPath&lt;/code&gt; and does pretty much everything as mentioned above by the &lt;code&gt;Application Exists&lt;/code&gt; handler. What was awesome about this UDM was the advancement from using one variable in the UDM to 2 variables. Simple, pathetic, but damn it felt good haha&lt;/p&gt;
+
+&lt;p&gt;You can also do things like generic copy commands, create directory trees or run installers.&lt;br /&gt;
+&lt;em&gt;Handlers&lt;/em&gt;, like their cousins (&lt;em&gt;functions&lt;/em&gt;), are very powerful and useful.&lt;/p&gt;
+
+&lt;p&gt;In my post last week, I stated that I gave up what I was trying to do and created shell scripts to do the main commands required and used AppleScript to just call them with some nice dialogs (message boxes). Well that has been thrown out, and I have created two AppleScripts. One does all the commands I need and installs everything I need for BBEdit, and the other script does the same for TextWrangler. The reason for the separation will be explained in an upcoming post.&lt;/p&gt;
+
+&lt;p&gt;I have 5 supporting handlers (UDHs) for these scripts which are generic enough to do multiple tasks within each script. All in all, a great result!&lt;/p&gt;
+
+&lt;p&gt;If you would like to know about anymore of the UDMs that I have used or if you would like to know if a task you have can be turned into a UDM, please email or comment :D&lt;/p&gt;
+
+&lt;p&gt;AppleScript is a very powerful and capable language. I was irritated in my post last week cause I couldn’t find any of the info I needed to perform these tasks. When I changed my wording in the Google/Bing search boxes, I finally got results. These results have enabled me to power ahead and create 2 very awesome “installers” for my BBEdit/TextWrangler CLM and colour scheme.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 19 Mar 2012 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2012/03/the-turd-that-was-applescript/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2012/03/the-turd-that-was-applescript/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Turd that is AppleScript</title>
+        <description>&lt;p&gt;I am&lt;sup id=&quot;fnref:Was&quot;&gt;&lt;a href=&quot;#fn:Was&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; an Apple fan.&lt;/p&gt;
+
+&lt;p&gt;I like Mac’s &lt;br /&gt;
+and iPhones &lt;br /&gt;
+and iPads &lt;br /&gt;
+and iEtc’s &lt;br /&gt;
+but, professionally, I am a Windows engineer.&lt;/p&gt;
+
+&lt;p&gt;I am a qualified network engineer and software administrator. My experience has primarily been around Windows hardware, OS, and software.&lt;/p&gt;
+
+&lt;p&gt;I program and script in KiXtart as my main language of choice, and can also code in VBScript, AHK, AutoIt, shell, and bat.&lt;/p&gt;
+
+&lt;p&gt;I have experience in HTML, JavaScript, and XML.&lt;/p&gt;
+
+&lt;p&gt;So as an Apple-only man at home, I thought it was about time I learnt to script in the Mac world.&lt;/p&gt;
+
+&lt;p&gt;I attempted to write in AppleScript this last weekend; put simply, it’s a turd!&lt;sup id=&quot;fnref:Compare&quot;&gt;&lt;a href=&quot;#fn:Compare&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;br /&gt;
+Seriously, a turd!&lt;/p&gt;
+
+&lt;p&gt;I had created a Codeless Language Module for TextWrangler (and BBEdit) so that I could script KiX on my Mac’s with complete syntax highlighting (soon to be available on this site!) and wanted to create an installer so that I could easily provide my CLM to others.&lt;/p&gt;
+
+&lt;p&gt;I thought to myself “you know what, I reckon I could do a few minor things in AppleScript and create an ‘Application’ from that … win!”&lt;/p&gt;
+
+&lt;p&gt;Seriously, how wrong was I?!&lt;/p&gt;
+
+&lt;p&gt;I want to see if an application is installed. Simple task. &lt;br /&gt;
+AppleScript has great power with utilising installed applications, so I thought something along the lines of:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-applescript&quot; data-lang=&quot;applescript&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exists&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;application&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;TextWrangler&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;# code if true&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Seems simple right? Code logic (kinda) seems plausible?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;WRONG!!!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I Bing’d &lt;br /&gt;
+I Googled &lt;br /&gt;
+I tweeted&lt;/p&gt;
+
+&lt;p&gt;I could barely find a damned thing about identifying if an application is installed with AppleScript&lt;sup id=&quot;fnref:Search&quot;&gt;&lt;a href=&quot;#fn:Search&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. &lt;br /&gt;
+The one option I did find was massive, convoluted, and seemed a bit … well, stupid.&lt;/p&gt;
+
+&lt;p&gt;So what did I do? &lt;br /&gt;
+This:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-applescript&quot; data-lang=&quot;applescript&quot;&gt;&lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;existTW&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;NotInstalled&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;existTW&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;do shell script&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;ls /Applications | grep &amp;#39;TextWrangler&amp;#39;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;existTW&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;does not contain&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;TextWrangler&amp;quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;display dialog&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;It ain&amp;#39;t installed!&amp;quot;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;buttons&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;Drat…&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;button&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;icon&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;stop&lt;/span&gt;
+    &lt;span class=&quot;no&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;All thid does is set &lt;code&gt;existTW&lt;/code&gt; to a value, list the &lt;code&gt;/Applications&lt;/code&gt; directory and find anything containing the text &lt;em&gt;“TextWrangler”&lt;/em&gt; and set &lt;code&gt;existTW&lt;/code&gt; to that output.&lt;/p&gt;
+
+&lt;p&gt;If nothing in &lt;code&gt;/Applications&lt;/code&gt; contains the text, it will not alter the value of &lt;code&gt;existTW&lt;/code&gt; (which was set to &lt;em&gt;“NotInstalled”&lt;/em&gt; earlier) and there are no errors and the if statement will display a prompt stating no application installed, will stop running, and exit with the code 5&lt;sup id=&quot;fnref:Error-5&quot;&gt;&lt;a href=&quot;#fn:Error-5&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;Not quite as succinct as I had wanted, but heck, it works.&lt;/p&gt;
+
+&lt;p&gt;Next I wanted to get the directory that the AppleScript is running from. &lt;br /&gt;
+Again, shouldn’t be that hard.&lt;/p&gt;
+
+&lt;p&gt;In KiX, it’s a macro called &lt;code&gt;@ScriptDir&lt;/code&gt; &lt;br /&gt;
+In bat (cmd), it’s &lt;code&gt;%~dp0&lt;/code&gt; &lt;br /&gt;
+In shell (.sh), it’s &lt;code&gt;dirpath $0&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;So it should be easy in AppleScript right?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Again&lt;/em&gt;, &lt;strong&gt;WRONG!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;AppleScript does have a function called “path to me”, but that returns &lt;code&gt;folder:to:script.script&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I want the parent folder of the script …&lt;/p&gt;
+
+&lt;p&gt;And what the hell is with the path syntax?! I want to be able to pass these details to shell, which I cannot do with the path having &lt;code&gt;:&lt;/code&gt; instead of &lt;code&gt;/&lt;/code&gt; separating the folders/files :/&lt;/p&gt;
+
+&lt;p&gt;My solution (with some help from my good friend Bartron) turned out to be this:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-applescript&quot; data-lang=&quot;applescript&quot;&gt;&lt;span class=&quot;k&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;POSIX&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;POSIX&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;POSIX&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;path to&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;me&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;/..&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as &lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;W … &lt;br /&gt;
+T … &lt;br /&gt;
+&lt;strong&gt;F?!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Why does it have to be such a turd of a process to get the fucking parent directory of the script?!&lt;/p&gt;
+
+&lt;p&gt;Anyway, I was trying to get the script to do a bunch of other stuff too, and it just wasn’t working the way I wanted. In the end, I created 2 shell scripts that do the main parts of the install, and I’m using AppleScript as the container/controller and for the message boxes. &lt;br /&gt;
+AppleScript does some pretty funky things with basic message boxes (&lt;code&gt;display dialog&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;All in all though, I’ve learnt a tonne. AppleScript &lt;strong&gt;IS&lt;/strong&gt; a powerful beast with some great abilities. &lt;br /&gt;
+But it is also a great big giant turd :P&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:Was&quot;&gt;
+      &lt;p&gt;&lt;em&gt;Update 16 May 2015:&lt;/em&gt; I &lt;em&gt;was&lt;/em&gt; an Apple fan. These days I am getting more and more annoyed by the company with most things that they do. &lt;a href=&quot;#fnref:Was&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Compare&quot;&gt;
+      &lt;p&gt;Essentially, I can liken AppleScript to VBScript: It’s a powerful tool, but a fucking bitch to code in! &lt;a href=&quot;#fnref:Compare&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Search&quot;&gt;
+      &lt;p&gt;Searching for any kind of help on AppleScript on the interwebs is ridiculous! This is the typical scenario: &lt;br /&gt;&lt;/p&gt;
+      &lt;blockquote&gt;
+    &lt;strong&gt;Q.&lt;/strong&gt; I want to do &quot;x&quot;, can anyone help? &lt;br /&gt;
+    &lt;strong&gt;A.&lt;/strong&gt; Why do &quot;x&quot;? Do &quot;w&quot;, &quot;m&quot;, &quot;b&quot;, or &quot;r&quot;; none of which has nothing to do with what you want to achieve! :D
+&lt;/blockquote&gt;
+      &lt;p&gt;&lt;a href=&quot;#fnref:Search&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:Error-5&quot;&gt;
+      &lt;p&gt;Random error number; 5 seemed like the right thing at the time :P &lt;a href=&quot;#fnref:Error-5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 12 Mar 2012 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2012/03/the-turd-that-is-applescript/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2012/03/the-turd-that-is-applescript/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>We Have Too Much Stuff!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.paulgraham.com/stuff.html&quot; title=&quot;Paul Graham - Stuff&quot;&gt;Paul Graham has written a beautiful article about Stuff&lt;/a&gt; &lt;br /&gt;
+He puts it so succinctly; we, as “First World” people, have too much stuff.&lt;/p&gt;
+
+&lt;p&gt;He puts it that we overvalue stuff, and that we have been trained by the sellers of said stuff to value the stuff so highly.&lt;/p&gt;
+
+&lt;p&gt;So how do we see what we have that is stuff, and what is actually valuable to us? &lt;br /&gt;
+Paul puts it very well in his article:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A friend of mine cured herself of a clothes buying habit by asking herself before she bought anything “Am I going to wear this all the time?” If she couldn’t convince herself that something she was thinking of buying would become one of those few things she wore all the time, she wouldn’t buy it. I think that would work for any kind of purchase. Before you buy anything, ask yourself: will this be something I use constantly? Or is it just something nice? Or worse still, a mere bargain?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think that I need to follow this mantra. I know I sometimes see a gadget, or Guitar thingo, or whatever and go “WOW! That would be awesome to have!” only to find that I never actually use it.&lt;/p&gt;
+
+&lt;p&gt;If I just think about it and say “will I use this frequently?”; and if my is yes, then I may purchase it. Otherwise, &lt;a href=&quot;http://www.youtube.com/watch?v=4G7vL-k7DaI&quot; title=&quot;Moss from The IT Crowd: Just Walk Away&quot;&gt;I’ll just walk away&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All in all, Paul has written a great (as usual) article. I highly recommend you give it a read :)&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Dec 2011 00:00:00 +0000</pubDate>
+        <link>http://smithplatts.github.io/2011/12/we-have-too-much-stuff/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2011/12/we-have-too-much-stuff/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Get Your Latin Right! Post-PC vs Sans-PC</title>
+        <description>&lt;p&gt;&lt;em&gt;Michael Gartenberg&lt;/em&gt; writes a great piece over on Macworld about &lt;a href=&quot;http://www.macworld.com/article/159077/2011/04/gartenberg.html&quot; title=&quot;Macworld - Why &amp;quot;post PC&amp;quot; doesn&#39;t mean &amp;quot;sans PC&amp;quot;&quot;&gt;Post-PC vs Sans-PC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;He has a great opinion on the matter, and explains it succinctly:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…most commentators have completely missed the point… and likely failed Latin in High School as well.&lt;/p&gt;
+
+  &lt;p&gt;In fact, &lt;em&gt;post PC&lt;/em&gt; means &lt;em&gt;after PC&lt;/em&gt;, a new generation of products that build on the PC. What it doesn’t mean is &lt;em&gt;sans PC&lt;/em&gt;, that is, &lt;em&gt;without PC&lt;/em&gt;. The personal computer will no doubt be with us for a very long time… but that doesn’t mean we’re not in the post-PC world.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So get on over to Macworld and have a read; and may you then, like me, be better informed about the term “Post-PC”&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Apr 2011 00:00:00 +0100</pubDate>
+        <link>http://smithplatts.github.io/2011/04/post-pc-vs-sans-pc/</link>
+        <guid isPermaLink="true">http://smithplatts.github.io/2011/04/post-pc-vs-sans-pc/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

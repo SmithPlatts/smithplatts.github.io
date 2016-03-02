@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>pain => pain = hg.Convert(svn.RepoOrWc("Doesn't matter, it was all painful ...")) - Blog</title>
+    <meta name="description" content="WARNING I swear a little in this post; if you don’t like swear words, move along … So I decided to take the plunge and convert my personal/private SVN reposi...">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://smithplatts.github.io/2014/04/converting-svn-repo-to-hg/">
+    <link rel="alternate" type="application/rss+xml" title="Adam Smith-Platts" href="http://smithplatts.github.io/feed.xml" />
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="/assets/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script defer type="text/javascript" src="/assets/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+    
+    <link rel="apple-touch-icon" href="/assets/images/logos/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="SP - pain => pain = hg.Convert(svn.RepoOrWc("Doesn't matter, it was all painful ..."))">
+    
+    <meta name="msvalidate.01" content="87EA10B0180CB6462F697C2A176A4EF5" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63060972-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+    <body>
+
+        <script type="text/javascript">
+	        $(document).ready(function() {
+                $('.fancybox').fancybox({
+                    openEffect: 'elastic',
+                    padding: 5
+                });
+            });
+        </script>
+
+        <header id="site-header" class="site-header">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Adam Smith-Platts</a>
+        <div class="site-tag">var post = new SmithPlatts.Post&lt;TTitle, TBody&gt;("blah", "blah blah ...");</div>
+
+        <nav class="site-nav">
+            <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+            </a>
+
+            <div class="trigger">
+            
+                
+                <li>
+                <a class="page-link" href="/colophon/">Colophon</a>
+                
+                </li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/cli-tools/">CLi Tools</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/cli-tools/enuminstalledapp/">EnumInstalledApp</a></li><li><a class="page-link" href="/cli-tools/promotenta/">PromoteNTA</a><ul class="submenu"><li><a class="page-link" href="/cli-tools/promotenta/devresource/">Developer Resource</a></li></ul></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/coffeebuzz/">Coffee Buzz</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/coffeebuzz/changelog/">Change Log</a></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+            
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+
+        <div id="page-content" class="page-content">
+            <div class="wrapper">
+                <div class="post">
+
+    <header class="post-header">
+        
+        <h1 class="post-title">pain => pain = hg.Convert(svn.RepoOrWc("Doesn't matter, it was all painful ..."))</h1>
+        
+        <p class="post-meta">
+            Apr 23, 2014 • Adam Smith-Platts • 
+            <a href="https://twitter.com/intent/tweet?url=http://smithplatts.github.io/2014/04/converting-svn-repo-to-hg/&text=pain%20=%3E%20pain%20=%20hg.Convert(svn.RepoOrWc(%22Doesn't%20matter,%20it%20was%20all%20painful%20...%22))&via=SmithPlatts" target="_blank">
+                <img src="/assets/images/logos/twitter_logo_blue.png" height="16" />
+            </a> 
+            <a href="mailto:?subject=pain%20=%3E%20pain%20=%20hg.Convert(svn.RepoOrWc(%22Doesn't%20matter,%20it%20was%20all%20painful%20...%22))&body=Read this and thought I'd share: http://smithplatts.github.io/2014/04/converting-svn-repo-to-hg/">
+                <img src="/assets/images/logos/mail.png" height="24" />
+            </a>
+        </p>
+    </header>
+
+    <article class="post-content">
+        
+        <div class="migrated">This post was originaly published to <a href="https://stuffthebox.wordpress.com/2014/04/23/converting-svn-repo-to-hg/" target="_blank">Stuff the Box</a> on 23 Apr 2014</div>
+        
+        <p><strong>WARNING</strong> I swear a little in this post; if you don’t like swear words, move along … <br />
+So I decided to take the plunge and convert my personal/private <abbr title="Subversion">SVN</abbr> repository to a Mercurial (<abbr title="Mercurial">HG</abbr>) repository.</p>
+
+<p>My reasons for doing this are varied:</p>
+
+<ul>
+  <li>I have been wanting to play with <abbr title="Distributed Version Control System">DVCS</abbr> for a while</li>
+  <li>I don’t really like Git</li>
+  <li>Mercurial appears to have matured somewhat over the last couple of years and seems very extensible and powerful</li>
+  <li>Assembla, the <abbr title="Subversion">SVN</abbr> repository hosting service that I have been using, has been getting more and more annoying</li>
+</ul>
+
+<p>At work we use a lot of <a href="https://www.atlassian.com/">Atlassian</a> products, and so I have been looking at <a href="https://bitbucket.org/">Bitbucket</a> as a host for my <abbr title="Mercurial">HG</abbr> repository. A lot of developers I respect use it and like it, and it is free with unlimited private repositories and up to 5 users.</p>
+
+<p>So the first thing I did was create an account on Bitbucket, which <em>seemed</em> painless and simple. As part of the account creation process, you can create your first repository<sup id="fnref:BitBucket-Defaults"><a href="#fn:BitBucket-Defaults" class="footnote">1</a></sup>, which I did. Once the repository was created and I had customised it a little, I set out to import/convert/migrate my existing <abbr title="Subversion">SVN</abbr> repository to Bitbucket …</p>
+
+<p>This is where the rant will begin …</p>
+
+<p>Shit a brick!?! What a painful process!?!<br />
+Seriously …</p>
+
+<h3 id="i-am-still-frustratingly-fuming">I am still frustratingly fuming!</h3>
+
+<p>I had saved a few articles to my <a href="https://www.instapaper.com/">Instapaper</a> queue some time back when I first thought about doing this which documented how to migrate a <abbr title="Subversion">SVN</abbr> repository to a <abbr title="Mercurial">HG</abbr> repository, but when it came time to follow them, they didn’t work!</p>
+
+<p>There were <a href="https://alpha.app.net/smithplatts/post/28969525">different errors</a>, assumptions that were not documented, and other shit-fights.</p>
+
+<p>So, I am going to document what I had to do to get it to work.</p>
+
+<p>Firstly, some assumptions:</p>
+
+<ul>
+  <li>You know how to use a command line; most of the commands here will be from the command line</li>
+  <li>Have <a href="http://tortoisesvn.net/downloads.html">TortoiseSVN</a> installed and ensure that you selected the <abbr title="Command-Line Interface / Command Language Interpreter">CLi</abbr> tools as part of the install process; if you didn’t, rerun the installer and install them!</li>
+  <li>Install <a href="http://tortoisehg.bitbucket.org/">TortoiseHG</a> and make sure that you install the <abbr title="Command-Line Interface / Command Language Interpreter">CLi</abbr> tools too
+    <ul>
+      <li>As an aside, TortoiseHG<sup id="fnref:SourceTree"><a href="#fn:SourceTree" class="footnote">2</a></sup> is pretty good :P</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="now-the-process">Now, the process</h3>
+
+<p>I needed to create a local copy/backup of my online <abbr title="Subversion">SVN</abbr> repository as the <code>hg convert</code> process hated my checked out working copy. To do this, I had to perform the following:</p>
+
+<ol>
+  <li><code>svnadmin create PATH_FOR_LOCAL_REPO</code>
+    <ul>
+      <li><em>i.e.</em> <code>svnadmin create C:\Repositories\SVN\repo</code></li>
+      <li>This creates an empty <abbr title="Subversion">SVN</abbr> repository with folder structure, etc.</li>
+    </ul>
+  </li>
+  <li><code>Echo Exit 0</code> &gt; <code>PATH_OF_LOCAL_REPO\hooks\pre-revprop-change.bat</code>
+    <ul>
+      <li><em>i.e.</em> <code>Echo Exit 0</code> &gt; <code>C:\Repositories\SVN\repo\hooks\pre-revprop-change.bat</code></li>
+      <li>For some stupid reason, if this doesn’t exist, it borks out … if someone can explain why this is required, please let me know!</li>
+    </ul>
+  </li>
+  <li><code>svnsync init file:///PATH_OF_LOCAL_REPO URL_OF_REMOTE_REPO</code>
+    <ul>
+      <li><em>i.e.</em> <code>svnsync init file:///C:\Repositories\SVN\repo https://subversion.assembla.com/svn/repo/</code></li>
+      <li>This will initialise the [blank] local repository to replicate the remote one in full.</li>
+      <li>Yes, the <code>file:///</code> is required because svnsync is stoopid.</li>
+    </ul>
+  </li>
+  <li><code>svnsync sync file:///PATH_OF_LOCAL_REPO</code>
+    <ul>
+      <li><em>i.e.</em> <code>svnsync sync file:///C:\Repositories\SVN\repo</code></li>
+      <li>This will cause a full synchronisation from the remote repository to the local.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>So, I now have a local <abbr title="Subversion">SVN</abbr> repository that is a direct mirror of the remote one! When viewing it this way, it doesn’t seem so bad, but getting to this point took <em>WAY</em> too long :(</p>
+
+<p>Anyhoo, now that I have the local repository, I can convert it!</p>
+
+<ol>
+  <li><code>hg --config config.svn.trunk= convert -s svn PATH_OF_LOCAL_SVN_REPO PATH_FOR_HG_REPO</code>
+    <ul>
+      <li><em>i.e.</em> <code>hg --config config.svn.trunk= convert -s svn C:\Repositories\SVN\repo C:\Repositories\HG\repo</code></li>
+      <li>The <code>--config config.svn.trunk=</code> was required for my conversion as my <abbr title="Subversion">SVN</abbr> repository was not configured with the trunk, branch, etc directory structure but was more configured as standard directory tree. This option tells <abbr title="Mercurial">HG</abbr> to treat the root as the trunk.</li>
+      <li>This will convert the <abbr title="Subversion">SVN</abbr> repository into a new <abbr title="Mercurial">HG</abbr> repository with all metadata, versions and history … but no files!</li>
+    </ul>
+  </li>
+  <li><code>CD PATH_OF_HG_REPO</code>
+    <ul>
+      <li><em>i.e.</em> <code>CD C:\Repositories\HG\repo</code></li>
+    </ul>
+  </li>
+  <li><code>hg up</code>
+    <ul>
+      <li>This will make <abbr title="Mercurial">HG</abbr> update the repository location with all of the file data that is stored in the converted repository <code>.hg</code> folder.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>And just like that, I now have a fully mirrored <abbr title="Mercurial">HG</abbr> repository!!!</p>
+
+<p>Now I need to configure TortoiseHG so that pull/push commands can default to my Bitbucket repository. Because <abbr title="Mercurial">HG</abbr> is a <abbr title="Distributed Version Control System">DVCS</abbr>, there are no <em>working copies</em> of the repository that are checked out, but instead <em>every</em> copy is also a full repository. So, to get my local repository into Bitbucket, all I need to do is push it up.</p>
+
+<p>Here’s one of the big kickers that got me: logon and check the Bitbucket repository URL; does it end in <code>.git</code>? If so, delete the repository and create a new one. This caused me to piss fart around for well over an hour trying things, reading support docs, searching online, and other stuff to get working as there was no indication that the repo was not dual function. When you create the first repository when also creating your account, it will default to Git without any ability to change (at least, it did for me!). Once you create a new repository, and ensure that you specify the repository be configured for Mercurial, you can configure TortoiseHG’s pull/push defaults:</p>
+
+<ol>
+  <li>Navigate to the <abbr title="Mercurial">HG</abbr> repository, right-click and select <em>Hg Workbench</em></li>
+  <li>Right-click the repository in the left-hand repository tree and select <em>Settings</em></li>
+  <li>When viewing the <em>TortoiseHg Settings</em> dialog, click the <em>Edit File</em> button near the top</li>
+  <li>
+    <p>In the configuration file editor dialog, add the following lines: <br />
+<strong><em>N.B.</em></strong> Change the <code>URL_OF_REMOTE_HG_REPO</code> to the URL provided for the repository in the Bitbucket web tools; <em>i.e.</em> <code>https://bitbucket.org/UserName/repo</code></p>
+
+    <pre><code> [paths]
+ default = URL_OF_REMOTE_HG_REPO
+ default-push = URL_OF_REMOTE_HG_REPO
+</code></pre>
+  </li>
+  <li>Once complete, click <em>Save</em> to the configuration file editor dialog and then click <em>OK</em> to the <em>TortoiseHg Settings</em> dialog</li>
+  <li>A push should be able to be performed now and should default to the configured URL and populate the Bitbucket repository!</li>
+</ol>
+
+<p>And just like that, the <abbr title="Subversion">SVN</abbr> repository, including all history and whatnot, should be converted to <abbr title="Mercurial">HG</abbr> and in Bitbucket.</p>
+
+<p>It really was <em>that</em> simple! :P</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:BitBucket-Defaults">
+      <p>Yeah, this will be covered later as to why this was a PITA and needs to be handled by Bitbucket better! <a href="#fnref:BitBucket-Defaults" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:SourceTree">
+      <p>[<em>Update: 13 May 2015</em>] Since writing this post, I have since been using <a href="https://www.atlassian.com/">Atlassians</a> <a href="https://www.sourcetreeapp.com">SourceTree</a>. It is a Git and HG GUI-based application which, so far, has been the best I can find! <a href="#fnref:SourceTree" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    </article>
+
+</div>
+
+            </div>
+        </div>
+
+        <div id="hover-footer" class="site-footer"></div>
+
+<footer class="site-footer">
+
+    <div id="footer-wrapper" class="wrapper">
+        <div class="footer-col-wrapper">
+
+            <div class="footer-col footer-col-1">
+                <h1 class="footer-heading">PROFESSIONAL AND DEVELOPMENT</h1>
+                <div style="text-align: center;">
+                    <a href="http://stackoverflow.com/users/2412624/smithplatts">
+                        <img src="http://stackoverflow.com/users/flair/2412624.png?theme=clean" width="215" height="60" alt="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                    </a>
+                    <p style="padding-top: 15px;">
+                        For my online CV of sorts, you can view my SO Careers profile <a href="http://careers.stackoverflow.com/smithplatts">here</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <h1 class="footer-heading">SOCIAL MEDIA STUFFS</h1>
+                <div style="text-align: center;">
+                    <div style="float:left; width:2%;">&nbsp;</div>
+                    <div style="float:left; width:24%;">
+                        <a href="/feed.xml">
+                            <img src="/assets/images/social/rss.png" title="ASP in your Feed" width="75" height="75" />
+                        </a>
+                    </div>
+                    <div style="float:left; width:24%;">
+                        <a href="https://twitter.com/SmithPlatts">
+                            <img src="/assets/images/social/twitter.png" title="ASP on Twitter" width="75" height="75" />
+                        </a>
+                    </div>
+                    <div style="float:left; width:24%;">
+                        <a href="https://500px.com/SmithPlatts">
+                            <img src="/assets/images/social/500px.png" title="ASP on 500px" width="75" height="75" />
+                        </a>
+                    </div>
+                    <div style="float:left; width:24%;">
+                        <a href="https://www.flickr.com/photos/isplatts">
+                            <img src="/assets/images/social/flickr.png" title="ASP on Flickr" width="75" height="75" />
+                        </a>
+                    </div>
+                    <div style="float:left; width:2%;">&nbsp;</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+    </body>
+
+</html>

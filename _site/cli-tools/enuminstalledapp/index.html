@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>EnumInstalledApp - Blog</title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://smithplatts.github.io/cli-tools/enuminstalledapp/">
+    <link rel="alternate" type="application/rss+xml" title="Adam Smith-Platts" href="http://smithplatts.github.io/feed.xml" />
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="/assets/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script defer type="text/javascript" src="/assets/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+    
+    <link rel="apple-touch-icon" href="/assets/images/logos/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="SP - EnumInstalledApp">
+    
+    <meta name="msvalidate.01" content="87EA10B0180CB6462F697C2A176A4EF5" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63060972-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+    <body>
+
+        <script type="text/javascript">
+	        $(document).ready(function() {
+                $('.fancybox').fancybox({
+                    openEffect: 'elastic',
+                    padding: 5
+                });
+            });
+        </script>
+
+        <header id="site-header" class="site-header">
+
+    <div class="wrapper">
+
+        <a class="site-title" href="/">Adam Smith-Platts</a>
+        <div class="site-tag">var post = new SmithPlatts.Post&lt;TTitle, TBody&gt;("blah", "blah blah ...");</div>
+
+        <nav class="site-nav">
+            <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+            </a>
+
+            <div class="trigger">
+            
+                
+                <li>
+                <a class="page-link" href="/colophon/">Colophon</a>
+                
+                </li>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/cli-tools/">CLi Tools</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/cli-tools/enuminstalledapp/">EnumInstalledApp</a></li><li><a class="page-link" href="/cli-tools/promotenta/">PromoteNTA</a><ul class="submenu"><li><a class="page-link" href="/cli-tools/promotenta/devresource/">Developer Resource</a></li></ul></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+                <li>
+                <a class="page-link" href="/coffeebuzz/">Coffee Buzz</a>
+                
+                <ul class="submenu"><li><a class="page-link" href="/coffeebuzz/changelog/">Change Log</a></li></ul>
+
+                
+                </li>
+                
+            
+                
+            
+                
+            
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+
+        <div id="page-content" class="page-content">
+            <div class="wrapper">
+                <div class="post">
+
+    <header class="post-header">
+        
+        <h1 class="post-title">EnumInstalledApp - Query the Registry Uninstall Key</h1>
+        
+    </header>
+
+	<article class="post-content">
+        
+<p>Ever wanted to quickly find out what application is listed in the registry’s Uninstall key? Wanted to know what sub-key name it has and what version is recorded?</p>
+
+<p>EnumInstalledApp is the <abbr title="Command-Line Interface / Command Language Interpreter">CLi</abbr> utility for you!</p>
+
+<h2 id="really-what-can-it-do">Really? What can it do?</h2>
+
+<p>EnumInstalledApp queries the <code>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall</code> registry key for a particular keyword or full name as passed on the command line. It’s scope, by default, is to find registry sub keys whose <code>DisplayName</code> value contains the passed keyword/s. It will list each match by sub key name, <code>DisplayName</code> and <code>DisplayVersion</code>:</p>
+
+<div class="showcase center">
+    <a class="fancybox" href="/assets/images/enuminstalledapp/enuminstalledapp_example.jpg" title="EnumInstalledApp in Action!">
+        <img src="/assets/images/enuminstalledapp/enuminstalledapp_example.jpg" alt="EnumInstalledApp in Action!" width="580" height="379" />
+    </a><br />
+    EnumInstalledApp in Action!
+</div>
+
+<h2 id="nice-how-much-control-do-i-have-over-the-search">Nice! How much control do I have over the search?</h2>
+
+<p>Quite a bit! In a nutshell:</p>
+
+<ul>
+  <li>Search for multiple keyword/s or full names (with spaces!)</li>
+  <li>Perform a case sensitive search to narrow results</li>
+  <li>Alter the search scope:
+    <ul>
+      <li>Find matches that <em>contain</em> keyword/s</li>
+      <li>Find matches that are <em>exact</em></li>
+      <li>Find matches that <em>start with</em> keyword/s</li>
+    </ul>
+  </li>
+  <li>On a 64-bit machine, include the 32-bit registry within search or search 32-bit only</li>
+  <li>Query a remote host over the network</li>
+</ul>
+
+<p>All of EnumInstalledApp’s <abbr title="Command-Line Interface / Command Language Interpreter">CLi</abbr> usage options and explanations can be accessed by either running <em>EnumInstalledApp.exe</em> from within a command prompt or by using the <em>-?</em> argument <sup id="fnref:help"><a href="#fn:help" class="footnote">1</a></sup> <sup id="fnref:arg-prefix"><a href="#fn:arg-prefix" class="footnote">2</a></sup></p>
+
+<h2 id="what-computer-system-is-it-designed-for">What computer system is it designed for?</h2>
+
+<p>EnumInstalledApp has been built for Microsoft Windows. It has been designed for and tested against Windows XP (all versions), Windows 7 (all versions) and Windows 8.<em>x</em>.</p>
+
+<p>The .NET framework version 4 is required to be able to run EnumInstalledApp. Windows 8.<em>x</em> already includes a newer version of the .NET framework, but if you are intending to run this tool on any other edition of Windows you will first need to install the .NET 4 framework which can be <a href="http://www.microsoft.com/en-us/download/details.aspx?id=17851" title="Microsoft .NET Framework 4 (Web Installer)">found here</a>.</p>
+
+<h2 id="free">Free?</h2>
+
+<p>You betcha! It’s ©2013 Adam Smith-Platts; but you are free to use and distribute as you like.<br />
+However, you may not sell or receive donation in any way shape or form.</p>
+
+<h2 id="awesome-where-can-i-get-it">Awesome! Where can I get it?</h2>
+
+<p><a href="/assets/releases/EnumInstalledApp.zip" title="Get me some EnumInstalledApp!">Right here!</a> Unzip and run from any location :D</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:help">
+      <p>You can specify -? anywhere in the command line and the help text will be displayed <a href="#fnref:help" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:arg-prefix">
+      <p>EnumInstalledApp isn’t picky about CLi argument prefix’; you can use <em>/</em>, <em>-</em> or even use nothing and it’ll happily work away <a href="#fnref:arg-prefix" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    </article>
+
+</div>
+
+            </div>
+        </div>
+
+        <div id="hover-footer" class="site-footer"></div>
+
+<footer class="site-footer">
+
+    <div id="footer-wrapper" class="wrapper">
+        <div class="footer-col-wrapper">
+
+            <div class="footer-col footer-col-1">
+                <h1 class="footer-heading">PROFESSIONAL AND DEVELOPMENT</h1>
+                <div style="text-align: center;">
+                    <a href="http://stackoverflow.com/users/2412624/smithplatts">
+                        <img src="http://stackoverflow.com/users/flair/2412624.png?theme=clean" width="215" height="60" alt="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for SmithPlatts at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                    </a>
+                    <p style="padding-top: 15px;">
+                        For my online CV of sorts, you can view my SO Careers profile <a href="http://careers.stackoverflow.com/smithplatts">here</a>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-col footer-col-2">
+                <h1 class="footer-heading">SOCIAL MEDIA STUFFS</h1>
+                <div style="text-align: center;">
+                    <div style="float:left; width:2%;">&nbsp;</div>
+                    <div style="float:left; width:24%;">
+                        <a href="/feed.xml">
+                            <img src="/assets/images/social/rss.png" title="ASP in your Feed" width="75" height="75" />
+                        </a>
+                    </div>
+                    <div style="float:left; width:24%;">
+                        <a href="https://twitter.com/SmithPlatts">
+                            <img src="/assets/images/social/twitter.png" title="ASP on Twitter" width="75" height="75" />
+                        </a>
+                    </div>
+                    <div style="float:left; width:24%;">
+                        <a href="https://500px.com/SmithPlatts">
+                            <img src="/assets/images/social/500px.png" title="ASP on 500px" width="75" height="75" />
+                        </a>
+                    </div>
+                    <div style="float:left; width:24%;">
+                        <a href="https://www.flickr.com/photos/isplatts">
+                            <img src="/assets/images/social/flickr.png" title="ASP on Flickr" width="75" height="75" />
+                        </a>
+                    </div>
+                    <div style="float:left; width:2%;">&nbsp;</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+
+    </body>
+
+</html>
